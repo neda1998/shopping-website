@@ -1,0 +1,44 @@
+.slideShow {
+      background-color: var(--bg-green-100);
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content:space-between;
+}
+
+.textSlide {
+      display: flex;
+      flex-direction: column;
+}
+
+.textSlide p {
+      color: var(--black-color-600);
+      font-weight: 500;
+}
+
+.textSlide h1 {
+      color: var(--bg-black-100);
+      font-weight: bolder;
+      font-size: 20px;
+      margin: 30px 0;
+}
+
+.btnSlide {
+      background-color: var(--bg-black-100);
+      border-radius: 23px;
+      padding: 15px 30px;
+      color: var(--bg-white);
+      font-weight: 500;
+}
+
+.imgSlide {
+      object-fit: cover;
+      width: 600px;
+      height: 600px;
+      display: flex;
+      justify-content: flex-end;
+}
+
+.slideSwiper {
+}
