@@ -6,15 +6,13 @@ import dogImage from "../../assets/images/dog.png";
 import user from "../../assets/images/user.png";
 import coatImage from "../../assets/images/coat.png";
 
-
-
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [openTemplate, setOpenTemplate] = useState(false);
   const [openSearch, setOpenSearch] = useState(false);
   const [openPropUser, setPropUser] = useState(false);
   const [search, setSearch] = useState("");
-  const [shoppingBox, setShoppingBox] = useState(false)
+  const [shoppingBox, setShoppingBox] = useState(false);
 
   // submit search
   const submitSearchHandler = (e) => {
@@ -193,8 +191,46 @@ function Navbar() {
                   <div className={style.listMenu}>
                     <Link className={style.homeNav}>Home Demo 1</Link>
                     <Link className={style.LinkNav}>Home Demo 1</Link>
-                    <Link className={style.LinkNav}>Category Pages</Link>
-                    <Link className={style.LinkNav}>Product Pages</Link>
+                    <Link className={`relative ${style.dropNav} ${style.LinkNav}`}>
+                      Category Pages
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    </Link>
+                    {/* drop down category */}
+                    <div className={style.ctegoryPage}>
+                      <Link className={style.LinkNav}>Category Page 1</Link>
+                      <Link className={style.LinkNav}>Category Page 2</Link>
+                    </div>
+                    {/* drop down category */}
+                    <Link className={`${style.dropNav} ${style.LinkNav}`}>
+                      Product Pages
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    </Link>
                     <Link className={style.LinkNav}>Cart Pages</Link>
                     <Link className={style.LinkNav}>Checkout Pages</Link>
                     <Link className={style.LinkNav}>Search Pages</Link>
@@ -423,7 +459,10 @@ function Navbar() {
               </div>
             )}
             {/* open box user */}
-            <button className={`${style.btnHover} ${style.btn}`} >
+            <button
+              className={`${style.btnHover} ${style.btn}`}
+              onClick={() => setShoppingBox(!shoppingBox)}
+            >
               <span>3</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -443,33 +482,37 @@ function Navbar() {
             {/* open shopping cart box */}
             {shoppingBox && (
               <div className={style.shoppingCartBox}>
-              <p className={style.shopText}>Shopping Cart</p>
-              <div className={style.propShop}>
-                <div className={style.imgShop}>
-                  <img src={coatImage} alt="coat" />
-                  <div className={style.textImgShop}>
-                    <p>rey Nylon Backpack</p>
-                    <span>Natural | XL</span>
-                    <h6>Qty 1</h6>
+                <p className={style.shopText}>Shopping Cart</p>
+                <div className={style.propShop}>
+                  <div className={style.imgShop}>
+                    <img src={coatImage} alt="coat" />
+                    <div className={style.textImgShop}>
+                      <p>rey Nylon Backpack</p>
+                      <span>Natural | XL</span>
+                      <h6>Qty 1</h6>
+                    </div>
+                  </div>
+                  <div className={style.btnPriceShop}>
+                    <div>
+                      <button className={style.btnPrice}>$74.00</button>
+                    </div>
+                    <div>
+                      <p>Remove</p>
+                    </div>
                   </div>
                 </div>
-                <div className={style.btnPriceShop}>
-                  <button>$74.00</button>
-                  <p>Remove</p>
+                <div className={style.textCheckout}>
+                  <div>
+                    <p>Subtotal</p>
+                    <span>Shipping and taxes calculated at checkout.</span>
+                  </div>
+                  <p>$299.00</p>
+                </div>
+                <div className={style.btnShopping}>
+                  <button className={style.cartBtn}>View cart</button>
+                  <button className={style.checkoutBtn}>Check out</button>
                 </div>
               </div>
-              <div className={style.textCheckout}>
-                <div>
-                  <p>Subtotal</p>
-                  <span>Shipping and taxes calculated at checkout.</span>
-                </div>
-                <p>$299.00</p>
-              </div>
-              <div className={style.btnShopping}>
-                <button>View cart</button>
-                <button>Check out</button>
-              </div>
-            </div>
             )}
             {/* open shopping cart box */}
           </div>
