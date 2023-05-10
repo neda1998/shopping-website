@@ -1,0 +1,117 @@
+.headSlider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 50px;
+}
+
+.headSlider span,
+.headSlider p {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.headSlider p {
+  color: var(--black-color-800);
+}
+
+.headSlider > div {
+  display: flex;
+  align-items: center;
+}
+
+.swiperNavBtns {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 87px;
+}
+
+.swiperNavBtns .prevBtn,
+.swiperNavBtns .nextBtn {
+  border-radius: 50px;
+  color: var(--black-color-800);
+  font-size: 32px;
+  transition: all 0.4s ease-in-out;
+  margin-right: 15px;
+  border: 2px solid var(--bg-white);
+}
+
+.swiperNavBtns .prevBtn:hover,
+.swiperNavBtns .nextBtn:hover {
+  border: 2px solid var(--border-gray-200);
+}
+
+.imgCartGreen {
+  background-color: var(--bg-blue-400);
+  border-radius: 24px;
+  margin-bottom: 15px;
+}
+
+.imgCartGreen > button {
+  background-color: var(--bg-white);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.imgCartGreen > button > svg {
+  color: var(--black-color-800);
+}
+
+.imgCartGreen > button > svg:active {
+  fill: var(--bg-red-200);
+  color: var(--bg-red-200);
+}
+
+.colorChoose {
+  display: flex;
+  align-items: center;
+}
+
+.colorChoose img {
+  margin-right: 5px;
+  width: 38px;
+  height: 18px;
+  border-radius: 20px;
+}
+
+.textSlideAdd {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.textSlideAdd p {
+  color: var(--bg-black-100);
+  font-weight: 700;
+}
+
+.textSlideAdd span {
+  color: var(--black-color-800);
+  font-weight: 600;
+}
+
+.btnPriceAdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnPriceAdd > div > button {
+  border: 2px solid var(--bg-green-200);
+  background-color: var(--bg-white);
+  color: var(--bg-green-200);
+  border-radius: 9px;
+  font-weight: 600;
+  padding: 2px 13px;
+}
+
+.btnPriceAdd > div > span {
+  color: var(--black-color-800);
+  font-weight: 400;
+}
+
+.images {
+  width: 100%;
+}

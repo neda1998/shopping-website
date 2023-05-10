@@ -1,0 +1,87 @@
+.headSlider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 50px;
+}
+
+.headSlider span,
+.headSlider p {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.headSlider p {
+  color: var(--black-color-800);
+}
+
+.headSlider > div {
+  display: flex;
+  align-items: center;
+}
+
+.imgCart {
+  width: 190px;
+}
+
+.cartSlider {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  width: 460px;
+  background-color: rgb(255, 230, 234);
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart > div > p {
+  color: var(--black-color-700);
+  font-weight: 500;
+}
+
+.cart > div > h3 {
+  font-weight: 700;
+  color: var(--bg-black-100);
+  margin: 13px 0 30px;
+  font-size: 23px;
+}
+
+.cart > div > button {
+  color: var(--black-color-600);
+  font-weight: 600;
+  background-color: var(--bg-white);
+  border-radius: 24px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.swiperNavBtns {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 87px;
+}
+
+.swiperNavBtns .prevBtn,
+.swiperNavBtns .nextBtn {
+  border-radius: 50px;
+  color: var(--black-color-800);
+  font-size: 32px;
+  transition: all 0.4s ease-in-out;
+  margin-right: 15px;
+  border: 2px solid var(--bg-white);
+}
+
+.swiperNavBtns .prevBtn:hover,
+.swiperNavBtns .nextBtn:hover {
+  border: 2px solid var(--border-gray-200);
+}

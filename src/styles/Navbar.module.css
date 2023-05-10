@@ -247,8 +247,6 @@
   flex-direction: column;
 }
 
-
-
 /* dropdown menu */
 
 /* search */
@@ -375,7 +373,8 @@
   position: absolute;
   right: 0;
   width: 430px;
-  margin-right: 77px;
+  margin-right: 127px;
+  background: var(--bg-white);
 }
 
 .propShop {
@@ -426,7 +425,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .btnPrice {
