@@ -1,0 +1,13 @@
+.tabs {
+      background-color: var(--bg-blue-500);
+      border-radius: 25px;
+}
+
+.tabs h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: var(--bg-black-100);
+      font-size: 30px;
+      margin: 70px 0 40px;
+}

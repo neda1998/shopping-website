@@ -25,7 +25,7 @@
 .swiperNavBtns {
   display: flex;
   justify-content: flex-end;
-  margin-right: 87px;
+  margin: 0 87px 50px 0;
 }
 
 .swiperNavBtns .prevBtn,

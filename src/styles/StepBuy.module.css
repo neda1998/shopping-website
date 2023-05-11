@@ -1,0 +1,46 @@
+.stepBuy {
+  border-top: 2px solid var(--border-gray-100);
+  border-bottom: 2px solid var(--border-gray-100);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stepBuy {
+  padding: 100px 20px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.searchImg {
+  width: 140px;
+  height: 140px;
+  margin: 20px 0;
+}
+
+.btnStep {
+  border-radius: 18px;
+  color: var(--btn-color-100);
+  background-color: var(--btn-red-100);
+  padding: 3px 13px;
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.title {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.text {
+  color: var(--black-color-600);
+  font-weight: 500;
+  max-width: 226px;
+  text-align: center;
+  font-size: 15px;
+}

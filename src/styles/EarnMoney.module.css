@@ -1,0 +1,57 @@
+.earnMoney {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textMoney h1 {
+  font-size: 51px;
+  max-width: 400px;
+  font-weight: 700;
+  margin: 47px 0 28px;
+  line-height: 1.1;
+}
+
+.textMoney p {
+  color: var(--black-color-600);
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.btnMoney {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.btnMoney button {
+  border-radius: 27px;
+  padding: 15px 0;
+  width: 170px;
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.btnSave {
+  color: var(--bg-white);
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--bg-black-100);
+}
+
+.btnDiscover {
+  color: var(--black-color-400);
+  font-weight: 500;
+  border: 1px solid var(--border-gray-100);
+  margin-left: 10px;
+}
+
+.btnSave:hover,
+.btnDiscover:hover {
+  opacity: 0.8;
+}
+
+.imgMoney {
+  width: 680px;
+}

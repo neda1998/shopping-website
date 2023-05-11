@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import style from "../../styles/Navbar.module.css";
-import logo from "../../assets/svg/logo.svg";
+import style from "../../styles/Navbar.module.css";   
 import dogImage from "../../assets/images/dog.png";
 import user from "../../assets/images/user.png";
 import coatImage from "../../assets/images/coat.png";
+import Logo from "../Logo/Logo";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -38,20 +38,13 @@ function Navbar() {
 
   // click on user icon open the box user
   const boxUserHandler = () => {
-    console.log("click");
     setPropUser(!openPropUser);
   };
   return (
     <header className={style.header}>
       <div className="container">
         <nav className={style.navbar}>
-          <div>
-            <h1>
-              <Link to="/">
-                <img src={logo} alt="logo" />
-              </Link>
-            </h1>
-          </div>
+          <Logo />
           <div>
             <ul className={style.navItem}>
               <li>
