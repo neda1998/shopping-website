@@ -83,7 +83,7 @@
 }
 
 .inputRegister input:focus {
-border:2px solid #7dd3fc;
+  border: 2px solid #7dd3fc;
 }
 
 .inputRegister button {

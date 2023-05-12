@@ -25,7 +25,6 @@ function SliderCartAdd() {
           <p>Rey backpacks & bags</p>
         </div>
       </div>
-      <h1>
         <Swiper
           modules={[Navigation, Pagination, A11y]}
           spaceBetween={30}
@@ -243,7 +242,6 @@ function SliderCartAdd() {
             </div>
           </SwiperSlide>
         </Swiper>
-      </h1>
     </>
   );
 }

@@ -1,0 +1,89 @@
+.sliderMore {
+  margin: 100px 0 50px;
+}
+
+.sliderMore > div > p {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  margin: 40px 0;
+  font-size: 40px;
+}
+
+.travel,
+.pet,
+.sport,
+.pharmacy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.travel > div {
+  background-color: var(--bg-blue-800);
+  border-radius: 20px;
+}
+
+.travel p,
+.pharmacy p,
+.pet p,
+.sport p {
+  color: var(--bg-black-100);
+  font-weight: 600;
+  font-size: 19px;
+  margin: 20px 0 7px;
+}
+
+.travel span,
+.pharmacy span,
+.pet span,
+.sport span {
+  color: var(--black-color-800);
+  font-weight: 500;
+}
+
+.pharmacy > div {
+  background-color: var(--bg-blue-300);
+  border-radius: 20px;
+}
+
+.sport > div {
+  background-color: var(--bg-box-slider2);
+  border-radius: 20px;
+}
+
+.pet > div {
+  background-color: var(--bg-box-slider);
+  border-radius: 20px;
+}
+
+.moreCollection {
+  background-color: var(--bg-blue-300);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.moreCollection > div {
+  margin-bottom: 10px;
+}
+
+.moreCollection > div > span {
+  color: var(--bg-black-100);
+  font-weight: 600;
+  padding-right: 8px;
+  font-size: 20px;
+}
+
+.moreCollection p {
+  color: var(--black-color-800);
+  font-weight: 400;
+}
+
+.imgCollection {
+  width: 214px;
+  object-fit: contain;
+}

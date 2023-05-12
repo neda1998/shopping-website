@@ -1,0 +1,49 @@
+.footer {
+  border-top: 1px solid var(--border-gray-100);
+  padding: 100px 0;
+}
+
+.logoFooter {
+  padding-top: 15px;
+}
+
+.headFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.headFooter > p {
+  color: var(--bg-black-100);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.headFooter span {
+  margin-bottom: 10px;
+}
+
+.headFooter span,
+.socialMedia span {
+  color: var(--black-color-700);
+  font-weight: 500;
+  opacity: .8;
+  cursor: pointer;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 3px;
+}
+
+.socialMedia span:hover,
+.headFooter span:hover {
+  opacity: 1;
+}
+
+.socialMedia img {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}

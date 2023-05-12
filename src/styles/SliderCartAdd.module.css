@@ -1,8 +1,4 @@
 .headSlider {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   margin: 100px 0 50px;
 }
 
