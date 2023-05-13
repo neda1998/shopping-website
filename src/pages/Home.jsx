@@ -11,6 +11,8 @@ import Register from "../Components/Register/Register";
 import SliderMoreCollection from "../Components/SliderMoreCollection/SliderMoreCollection";
 import Footer from "../Components/Footer/Footer";
 import BlogArticle from "../Components/BlogArticle/BlogArticle";
+import SliderChooseProduct from "../Components/SliderChooseProduct/SliderChooseProduct";
+import Comments from "../Components/Comments/Comments";
 
 function Home() {
   return (
@@ -23,9 +25,11 @@ function Home() {
       <EarnMoney />
       {/* <Tabs /> */}
       <SectionKids />
-      <Register />
+      <SliderChooseProduct />
       <SliderMoreCollection />
+      <Register />
       <BlogArticle />
+      <Comments />
       <Footer />
     </>
   );

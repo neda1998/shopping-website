@@ -1,6 +1,7 @@
 import React from "react";
 import style from "../../styles/BlogArticle.module.css";
 import boyBlog from "../../assets/images/boyBlog.png";
+import book from "../../assets/images/book.jpg"
 
 function BlogArticle() {
   return (
@@ -11,23 +12,7 @@ function BlogArticle() {
           <p>From the Ciseco blog</p>
         </div>
         <div className="grid lg:grid-cols-3">
-          <div>
-            <img src="" alt="" />
-            <h2>
-              The latest news. From the Ciseco blog title Et Leo Duis Ut Diam
-              Quam Nulla Porttitor Massa Id
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              vero perspiciatis ullam ea? Nihil accusamus similique debitis
-            </p>
-            <div>
-              <img src={boyBlog} alt="blog" />
-              <span>Belinda Ret</span>
-              <span>.</span>
-              <span>May 20,2021</span>
-            </div>
-          </div>
+          
           <div>
             <span>Non Sodales Neque Sodales Ut Etiam Sit Amet Nisl Purus</span>
             <p>

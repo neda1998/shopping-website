@@ -35,6 +35,7 @@ ul {
   --black-color-900: #585858;
   --border-gray-100: #f3f3f3;
   --border-gray-200: #cecece;
+  --border-gray-300:#9EA8B6;
   --color-badge: #0ea5e9;
   --bg-blue-100: #eff6ff;
   --bg-blue-200: #f3f4f6;
@@ -56,6 +57,7 @@ ul {
   --btn-color-100: #991b52;
   --bg-purple-100: #f3e8ff;
   --bg-purple-200: #7c21a8;
+  --bg-yellow-stars:#EAB308;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }
