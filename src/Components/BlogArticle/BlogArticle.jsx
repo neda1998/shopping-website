@@ -1,32 +1,32 @@
 import React from "react";
 import style from "../../styles/BlogArticle.module.css";
-import boyBlog from "../../assets/images/boyBlog.png";
-import book from "../../assets/images/book.jpg"
+import Post from "./Post";
+import BlogNews from "./BlogNews";
+import BlogPicture from "./BlogPicture";
 
 function BlogArticle() {
   return (
-    <div className="w-full">
-      <div className={`px-20 ${style.BlogArticle}`}>
+    <div className={style.BlogArticle}>
+      <div className={`px-14 ${style.posts}`}>
         <div>
           <span>The latest news.</span>
           <p>From the Ciseco blog</p>
         </div>
-        <div className="grid lg:grid-cols-3">
-          
+        <div className="grid lg:grid-cols-3 gap-14">
           <div>
-            <span>Non Sodales Neque Sodales Ut Etiam Sit Amet Nisl Purus</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              dolorem...
-            </p>
-            <div>
-              <img src={boyBlog} alt="blog" />
-              <span>Belinda Ret</span>
-              <span>.</span>
-              <span>May 20,2021</span>
-            </div>
+            <Post />
           </div>
-          <div></div>
+          <div>
+            <BlogNews />
+            <BlogNews />
+            <BlogNews />
+            <div className={style.blogBtn}>
+            <button>Show all blog articles</button>
+          </div>
+          </div>
+          <div>
+            <BlogPicture />
+          </div>
         </div>
       </div>
     </div>
