@@ -1,13 +1,151 @@
-.tabs {
-      background-color: var(--bg-blue-500);
-      border-radius: 25px;
+.tab {
+  background-color: var(--bg-blue-500);
+  border-radius: 25px;
+  padding: 38px 0;
 }
 
-.tabs h1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: var(--bg-black-100);
-      font-size: 30px;
-      margin: 70px 0 40px;
+.tab h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-black-100);
+  opacity: 0.9;
+  font-size: 33px;
+  margin: 70px 0 48px;
+  font-weight: 700;
 }
+
+.headTabs {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}*/
+
+.tabsItems {
+  background-color: var(--bg-white);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.tabProduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabProduct img {
+  background-color: var(--bg-blue);
+  border-radius: 50%;
+  width: 80px;
+}
+
+.tabProduct span {
+  color: var(--black-color-500);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.tabsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tabsTitle > div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabsTitle > div:first-child p {
+  color: var(--black-color-800);
+  font-weight: 500;
+}
+
+.tabsTitle > div:first-child h3 {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 123px;
+}
+
+.tabsBody {
+  display: flex;
+  align-items: center;
+}
+
+.tabsBody span {
+  color: var(--black-color-500);
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.tabLineImg img {
+  width: 280px;
+  height: 294px;
+} 

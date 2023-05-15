@@ -4,11 +4,13 @@ import TabComp from "./TabComp"
 
 function Tabs() {
   return (
-    <div className={`px-20`}>
-     <div className={`${style.tabs}`}>
+    <div className="w-full">
+     <div className={`${style.tab}`}>
+      <div className={`px-20`}>
      <h1>Start exploring.</h1>
      <TabComp />
      </div>
+    </div>
     </div>
   );
 }

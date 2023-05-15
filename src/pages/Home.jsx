@@ -5,7 +5,7 @@ import SliderCart from "../Components/SliderCarts/SliderCart";
 import SliderCartAdd from "../Components/SliderCartAdd/SliderCartAdd";
 import StepBuy from "../Components/StepsBuy/StepBuy";
 import EarnMoney from "../Components/EarnMoney/EarnMoney";
-// import TabsArticle from '../Components/TabsArticle/TabsArticle';
+import Tabs from '../Components/Tabs/Tabs';
 import SectionKids from "../Components/SectionKids/SectionKids";
 import Register from "../Components/Register/Register";
 import SliderMoreCollection from "../Components/SliderMoreCollection/SliderMoreCollection";
@@ -23,7 +23,7 @@ function Home() {
       <SliderCartAdd />
       <StepBuy />
       <EarnMoney />
-      {/* <TabsArticle /> */}
+      <Tabs />
       <SectionKids />
       <SliderChooseProduct />
       <SliderMoreCollection />
