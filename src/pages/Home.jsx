@@ -13,6 +13,7 @@ import Footer from "../Components/Footer/Footer";
 import BlogArticle from "../Components/BlogArticle/BlogArticle";
 import SliderChooseProduct from "../Components/SliderChooseProduct/SliderChooseProduct";
 import Comments from "../Components/Comments/Comments";
+import FilterProducts from "../Components/FilterProducts/FilterProducts";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <StepBuy />
       <EarnMoney />
       <Tabs />
+      <FilterProducts />
       <SectionKids />
       <SliderChooseProduct />
       <SliderMoreCollection />

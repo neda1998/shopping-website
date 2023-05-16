@@ -1,6 +1,18 @@
 import { useState } from "react";
 import style from "../../styles/Tabs.module.css";
 import TabItem from "./TabItem";
+import line from "../../assets/svg/oribLine.svg";
+import backpack from "../../assets/images/backpack.png";
+import suit from "../../assets/images/suit.png";
+import shirt from "../../assets/images/shirt.png";
+import palto from "../../assets/images/palto.png";
+import blanket from "../../assets/images/blanket.png";
+import boot from "../../assets/images/boot.png";
+import lineColor from "../../assets/svg/lineColor.svg";
+import circleColor from "../../assets/svg/circleColor.svg";
+import circle from "../../assets/svg/circle.svg";
+import snow from "../../assets/svg/snow.svg";
+import zigzag from "../../assets/svg/zigzag.svg";
 
 function TabComp() {
   const [toggleState, setToggleState] = useState(1);
@@ -16,7 +28,7 @@ function TabComp() {
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -54,7 +66,7 @@ function TabComp() {
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -92,7 +104,7 @@ function TabComp() {
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -130,7 +142,7 @@ function TabComp() {
           className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(4)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -182,7 +194,7 @@ function TabComp() {
           className={toggleState === 5 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(5)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -218,9 +230,9 @@ function TabComp() {
         </button>
         <button
           className={toggleState === 6 ? "tabs active-tabs" : "tabs"}
-          onClick={() => toggleTab(5)}
+          onClick={() => toggleTab(6)}
         >
-          <div className="flex">
+          <div className="flex text-tabs">
             <button>
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5"
@@ -246,7 +258,7 @@ function TabComp() {
                 ></path>
               </svg>
             </button>
-            <span>Jevelry</span>
+            <span className={style.textTabsComp}>Jewelry</span>
           </div>
         </button>
       </div>
@@ -255,39 +267,254 @@ function TabComp() {
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
           <div className={`grid lg:grid-cols-3 gap-8`}>
-         <TabItem />
-         <TabItem />
-         <TabItem />
-         <TabItem />
-         <TabItem />
-         <TabItem />
+            <TabItem
+              numberProduct="192"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="130"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="192"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="155"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="180"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="219"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
           </div>
         </div>
 
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Content 2</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            voluptatum qui adipisci.
-          </p>
+          <div className={`grid lg:grid-cols-3 gap-8`}>
+            <TabItem
+              numberProduct="392"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="130"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="192"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="155"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="180"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="219"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
+          </div>
         </div>
-
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>Content 3</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-            nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-            Accusamus in quia odit aspernatur provident et ad vel distinctio
-            recusandae totam quidem repudiandae omnis veritatis nostrum
-            laboriosam architecto optio rem, dignissimos voluptatum beatae
-            aperiam voluptatem atque. Beatae rerum dolores sunt.
-          </p>
+          <div className={`grid lg:grid-cols-3 gap-8`}>
+            <TabItem
+              numberProduct="210"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="530"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="402"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="205"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="100"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="910"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
+          </div>
+        </div>
+        <div
+          className={toggleState === 4 ? "content  active-content" : "content"}
+        >
+          <div className={`grid lg:grid-cols-3 gap-8`}>
+            <TabItem
+              numberProduct="92"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="600"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="120"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="255"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="810"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="419"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
+          </div>
+        </div>
+        <div
+          className={toggleState === 5 ? "content  active-content" : "content"}
+        >
+          <div className={`grid lg:grid-cols-3 gap-8`}>
+            <TabItem
+              numberProduct="100"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="190"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="992"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="355"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="480"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="719"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
+          </div>
+        </div>
+        <div
+          className={toggleState === 6 ? "content  active-content" : "content"}
+        >
+          <div className={`grid lg:grid-cols-3 gap-8`}>
+            <TabItem
+              numberProduct="530"
+              title="backpack"
+              imgProduct={backpack}
+              imgLines={line}
+            />
+            <TabItem
+              numberProduct="540"
+              title="Shoes"
+              imgProduct={boot}
+              imgLines={zigzag}
+            />
+            <TabItem
+              numberProduct="430"
+              title="Recycled Blanket"
+              imgProduct={blanket}
+              imgLines={circle}
+            />
+            <TabItem
+              numberProduct="120"
+              title="Cycling Short"
+              imgProduct={suit}
+              imgLines={snow}
+            />
+            <TabItem
+              numberProduct="220"
+              title="Cycling Jersey"
+              imgProduct={shirt}
+              imgLines={circleColor}
+            />
+            <TabItem
+              numberProduct="320"
+              title="Car Coat"
+              imgProduct={palto}
+              imgLines={lineColor}
+            />
+          </div>
         </div>
       </div>
     </div>

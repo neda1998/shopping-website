@@ -1,0 +1,16 @@
+.filterProducts {
+  margin: 100px 0 70px;
+}
+
+.filterProducts h1 {
+  color: var(--bg-black-100);
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.filterProducts p {
+  color: var(--black-color-800);
+  font-weight: 500;
+  margin: 20px 0 45px;
+  font-size: 18px;
+}

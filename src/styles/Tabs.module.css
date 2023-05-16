@@ -1,7 +1,7 @@
 .tab {
   background-color: var(--bg-blue-500);
   border-radius: 25px;
-  padding: 38px 0;
+  margin: 0 33px;
 }
 
 .tab h1 {
@@ -17,9 +17,9 @@
 
 .headTabs {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* .bloc-tabs {
@@ -93,6 +93,15 @@
   border-radius: 25px;
 }
 
+.tabsItems:hover {
+  box-shadow: 2px 8px 40px rgba(0,0,0,.08);
+}
+
+.tabsItems:hover .tabsBody span,
+.tabsItems:hover .tabsBody button {
+  color: var(--color-badge);
+}
+
 .tabProduct {
   display: flex;
   justify-content: space-between;
@@ -115,6 +124,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .tabsTitle > div:first-child {
@@ -139,6 +149,11 @@
   align-items: center;
 }
 
+.tabsBody span,
+.tabsBody button, .tabsItems {
+  transition: color 0.2s ease-in-out;
+}
+
 .tabsBody span {
   color: var(--black-color-500);
   font-weight: 600;
@@ -146,6 +161,5 @@
 }
 
 .tabLineImg img {
-  width: 280px;
-  height: 294px;
-} 
+  width: 100%;
+}

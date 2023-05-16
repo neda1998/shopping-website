@@ -38,9 +38,14 @@
   position: absolute;
   background-color: var(--bg-black-100);
   width: 120px;
-  color: var(--bg-white);
   border-radius: 25px;
   height: 48px;
+}
+
+.tabs.active-tabs .text-tabs span, .tabs.active-tabs .text-tabs button {
+  color: var(--bg-white);
+  position: relative;
+  z-index: 9999;
 }
 
 .content-tabs {
