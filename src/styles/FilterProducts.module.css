@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
 }
 
 .filterProducts p {
@@ -55,7 +54,7 @@
 }
 
 .btnCategory:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .imgCartGreen {
@@ -125,5 +124,109 @@
   text-align: center;
   border-radius: 50%;
   color: var(--black-color-600);
-  box-shadow: 2px 8px 40px rgba(0,0,0,.08);
+  box-shadow: 2px 8px 40px rgba(0, 0, 0, 0.08);
 }
+
+/* category product */
+
+.categoryProducts {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--border-gray-100);
+  padding-top: 40px;
+  margin: 30px 0 50px;
+}
+
+.itemsCategoryPro,
+.itemsCategorySale {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid var(--border-gray-200);
+  border-radius: 27px;
+  width: 160px;
+  padding: 6px 2px;
+  margin-right: 17px;
+  cursor: pointer;
+  position: relative;
+}
+
+.itemsCategorySale {
+  width: 113px;
+}
+
+.itemsCategoryPro span {
+  color: var(--black-color-600);
+  font-weight: 600;
+}
+
+.CategoryBox {
+  position: absolute;
+  left: 0;
+  /* top: 0; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  background-color: var(--bg-white);
+  border-radius: 20px;
+  border: 1px solid var(--border-gray-100);
+}
+
+.chooseItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputCategory {
+  color: var(--black-color-700);
+  font-weight: 500;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid var(--border-gray-100);
+  padding-bottom: 13px;
+  margin-bottom: 13px;
+  width: 400px;
+}
+
+.btnClick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.clearBtn button,
+.applyBtn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--black-color-600);
+  background-color: var(--bg-white);
+  border-radius: 20px;
+  font-weight: 600;
+  border: 1px solid var(--border-gray-200);
+  width: 80px;
+  padding: 5px 0;
+}
+
+.applyBtn button {
+  background-color: var(--bg-black-100);
+  color: var(--bg-white);
+  border: none;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+.btnClick:last-child button:hover {
+  opacity: 0.9;
+}
+
+/* category  product */
