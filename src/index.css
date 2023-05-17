@@ -24,6 +24,7 @@ ul {
 :root {
   --bg-white: #fff;
   --bg-color: #fefce8;
+  --bg-hover-btn:#F4F7FA;
   --hover-item-nav: #f1f5f9;
   --bg-black-100: #0f172a;
   --black-color-300: #333;
