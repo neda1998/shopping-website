@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  /* width: 100vw; */
   height: 100vh;
   overflow-x: hidden;
   margin: 0;
@@ -24,7 +23,7 @@ ul {
 :root {
   --bg-white: #fff;
   --bg-color: #fefce8;
-  --bg-hover-btn:#F4F7FA;
+  --bg-hover-btn: #f4f7fa;
   --hover-item-nav: #f1f5f9;
   --bg-black-100: #0f172a;
   --black-color-300: #333;
@@ -36,10 +35,10 @@ ul {
   --black-color-900: #585858;
   --border-gray-100: #f3f3f3;
   --border-gray-200: #cecece;
-  --border-gray-300:#9EA8B6;
-  --border-gray-400:#E5E7EB;
+  --border-gray-300: #9ea8b6;
+  --border-gray-400: #e5e7eb;
   --color-badge: #0ea5e9;
-  --bg-blue:#EEF2FF;
+  --bg-blue: #eef2ff;
   --bg-blue-100: #eff6ff;
   --bg-blue-200: #f3f4f6;
   --bg-blue-300: #f1f5f9;
@@ -47,8 +46,8 @@ ul {
   --bg-blue-500: #f6f7f8;
   --bg-blue-600: #dbeafe;
   --bg-blue-700: #1e5ac7;
-  --bg-blue-800:#E0E7FF;
-  --bg-blue-900:#185375;
+  --bg-blue-800: #e0e7ff;
+  --bg-blue-900: #185375;
   --bg-blue-900: #5fb1db;
   --bg-green-100: #e3ffe6;
   --bg-green-200: #22c55e;
@@ -56,13 +55,12 @@ ul {
   --bg-red-200: #ef4444;
   --bg-red-900: #a52d2d;
   --btn-red-100: #fee2e2;
-  --bg-box-slider:#FFEDD5;
-  --bg-box-slider2:#E0F2FE;
+  --bg-box-slider: #ffedd5;
+  --bg-box-slider2: #e0f2fe;
   --btn-color-100: #991b52;
   --bg-purple-100: #f3e8ff;
   --bg-purple-200: #7c21a8;
-  --bg-yellow-stars:#EAB308;
+  --bg-yellow-stars: #eab308;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }
-
