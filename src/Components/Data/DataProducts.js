@@ -62,7 +62,25 @@ const DataProducts = [
     image: "../../assets/images/imgShort.png",
     category: "Women",
     para: "Cream pink",
-  },
+  }
+  ,
+  {
+    id: 9,
+    title: "Jewelry Leather Tote",
+    price: 145,
+    image: "../../assets/images/JewelryOne.jpg",
+    category: "Jewels",
+    para: "Cream pink",
+  }
+  ,
+  {
+    id: 10,
+    title: "Jewels Leather Tote",
+    price: 145,
+    image: "../../assets/images/jewelryTwo.jpg",
+    category: "Jewels",
+    para: "Cream pink",
+  }
 ];
 
 export default DataProducts;

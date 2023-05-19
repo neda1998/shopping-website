@@ -1,14 +1,17 @@
 .bloc-tabs {
   display: flex;
-  border: 1px solid white;
+  border: 1px solid var(--bg-white);
   border-radius: 31px;
   margin-bottom: 60px;
-  background: white;
+  background: var(--bg-white);
   justify-content: space-between;
   border-bottom: none;
   align-items: center;
-  width: 950px;
+  width: 750px;
   height: 55px;
+  padding: 0 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 .tabs {
   padding: 10px 8px;
@@ -42,14 +45,11 @@
   height: 48px;
 }
 
-.tabs.active-tabs .text-tabs span, .tabs.active-tabs .text-tabs button {
+.tabs.active-tabs .text-tabs span,
+.tabs.active-tabs .text-tabs button {
   color: var(--bg-white);
   position: relative;
   z-index: 9999;
-}
-
-.content-tabs {
-  flex-grow: 1;
 }
 
 .content {

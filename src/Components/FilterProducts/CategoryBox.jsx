@@ -1,9 +1,9 @@
 import React from "react";
 import style from "../../styles/FilterProducts.module.css";
 
-function CategoryBox() {
+function CategoryBox({itemOne, itemTwo, itemThree, itemFour, itemFive, itemSix, itemSeven, itemEight, className}) {
   return (
-    <div className={style.CategoryBox}>
+    <div className={className}>
       <div class={`${style.chooseItem} ${style.borderBottom}`}>
         <input
           id="helper-checkbox"
@@ -13,7 +13,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          All Categories
+          {itemOne}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -25,7 +25,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          New Arrivals
+         {itemTwo}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -37,7 +37,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Sale
+          {itemThree}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -49,7 +49,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Backpack
+          {itemFour}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -61,7 +61,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Travel Bages
+          {itemFive}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -73,7 +73,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Laptop Sleeves
+          {itemSix}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -85,7 +85,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Organization
+          {itemSeven}
         </label>
       </div>
       <div class={style.chooseItem}>
@@ -97,7 +97,7 @@ function CategoryBox() {
           className="w-6 h-6"
         />
         <label for="helper-checkbox" className={style.inputCategory}>
-          Accessories
+          {itemEight}
         </label>
       </div>
       <div className={style.btnClick}>
