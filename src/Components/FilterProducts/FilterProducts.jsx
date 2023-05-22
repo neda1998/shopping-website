@@ -514,6 +514,7 @@ function FilterProducts() {
                           />
                         </svg>
                       </button>
+                      
                     </div>
                     <img src={image} alt="blose" className={style.images} />
                   </div>

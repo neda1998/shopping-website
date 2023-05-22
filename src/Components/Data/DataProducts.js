@@ -80,6 +80,14 @@ const DataProducts = [
     image: "https://www.google.com/search?q=image+clithesfor+women&tbm=isch&ved=2ahUKEwi73Yvzi4f_AhWaricCHb_qBaoQ2-cCegQIABAA&oq=image+clithesfor+women&gs_lcp=CgNpbWcQAzIECCMQJ1DSCViHFGCNFmgAcAB4AIABwQiIAc8dkgEHNC02LjctMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=5mlqZLvSBJrdnsEPv9WX0Ao&bih=789&biw=1440&rlz=1C1GCEA_enIR1058__1058#imgrc=muEJDC9fpTsYiM",
     category: "Jewels",
     para: "Cream pink",
+  },
+  {
+    id: 11,
+    title: "Jewels Leather Tote",
+    price: 145,
+    image: "https://www.google.com/search?q=image+clithesfor+women&tbm=isch&ved=2ahUKEwi73Yvzi4f_AhWaricCHb_qBaoQ2-cCegQIABAA&oq=image+clithesfor+women&gs_lcp=CgNpbWcQAzIECCMQJ1DSCViHFGCNFmgAcAB4AIABwQiIAc8dkgEHNC02LjctMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=5mlqZLvSBJrdnsEPv9WX0Ao&bih=789&biw=1440&rlz=1C1GCEA_enIR1058__1058#imgrc=muEJDC9fpTsYiM",
+    category: "Jewels",
+    para: "Cream pink",
   }
 ];
 

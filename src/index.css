@@ -4,9 +4,12 @@
 
 body {
   height: 100vh;
+  /* width: 100vw; */
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  background-color:var(--background-color);
+  color: var(--text-color);
 }
 
 button {
@@ -61,6 +64,18 @@ ul {
   --bg-purple-100: #f3e8ff;
   --bg-purple-200: #7c21a8;
   --bg-yellow-stars: #eab308;
+  --background-color:#fff;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }
+
+
+.dark {
+  background-color: #666;
+  color: #fff;
+}
+
+.light{
+  background-color: #fff;
+}
+
