@@ -10,14 +10,14 @@
 .headSlider p {
   color: var(--bg-black-100);
   font-weight: 700;
-  font-size: 35px;
+  /* font-size: 35px; */
 }
 
 .headSlider p {
   color: var(--black-color-800);
 }
 
-.headSlider > div {
+.headSlider>div {
   display: flex;
   align-items: center;
 }
@@ -26,13 +26,39 @@
   width: 190px;
 }
 
-.cartSlider {
+.cartSlider,
+.cartSliderTwo,
+.cartSliderThree,
+.cartSliderFour {
   display: flex;
   align-items: center;
   border-radius: 20px;
   padding: 20px;
   width: 460px;
-  background-color: rgb(255, 230, 234);
+  background-color: rgb(254, 243, 199);
+  opacity: .9;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+}
+
+.cartSliderTwo {
+  background-color: rgb(254, 242, 242);
+}
+
+.cartSliderThree {
+  background-color: rgb(239, 246, 255);
+}
+
+.cartSliderFour {
+  background-color: rgb(240, 253, 244);
+}
+
+.cartSlider:hover,
+.cartSliderTwo:hover,
+.cartSliderThree:hover,
+.cartSliderFour:hover {
+  opacity: 1;
+  background-color: rgb(216, 197, 197);
 }
 
 .cart {
@@ -41,19 +67,19 @@
   align-items: center;
 }
 
-.cart > div > p {
+.cart>div>p {
   color: var(--black-color-700);
   font-weight: 500;
 }
 
-.cart > div > h3 {
+.cart>div>h3 {
   font-weight: 700;
   color: var(--bg-black-100);
   margin: 13px 0 30px;
   font-size: 23px;
 }
 
-.cart > div > button {
+.cart>div>button {
   color: var(--black-color-600);
   font-weight: 600;
   background-color: var(--bg-white);
@@ -65,23 +91,3 @@
   padding: 10px 0;
 }
 
-.swiperNavBtns {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 87px;
-}
-
-.swiperNavBtns .prevBtn,
-.swiperNavBtns .nextBtn {
-  border-radius: 50px;
-  color: var(--black-color-800);
-  font-size: 32px;
-  transition: all 0.4s ease-in-out;
-  margin-right: 15px;
-  border: 2px solid var(--bg-white);
-}
-
-.swiperNavBtns .prevBtn:hover,
-.swiperNavBtns .nextBtn:hover {
-  border: 2px solid var(--border-gray-200);
-}

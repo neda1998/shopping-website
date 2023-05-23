@@ -14,10 +14,12 @@ import BlogArticle from "../Components/BlogArticle/BlogArticle";
 import SliderChooseProduct from "../Components/SliderChooseProduct/SliderChooseProduct";
 import Comments from "../Components/Comments/Comments";
 import FilterProducts from "../Components/FilterProducts/FilterProducts";
+// import Dropdown from "../Components/Dropdown"
 
 function Home() {
   return (
     <>
+      {/* <Dropdown /> */}
       <Navbar />
       <Slide />
       <SliderCart />

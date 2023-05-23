@@ -1,0 +1,21 @@
+.swiperNavBtns {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 87px;
+}
+
+.swiperNavBtns .prevBtn,
+.swiperNavBtns .nextBtn {
+    border-radius: 50%;
+    color: var(--black-color-800);
+    font-size: 32px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+    border: 2px solid var(--bg-white);
+    padding: 0 9px;
+}
+
+.swiperNavBtns .prevBtn:hover,
+.swiperNavBtns .nextBtn:hover {
+    border: 2px solid var(--border-gray-200);
+}

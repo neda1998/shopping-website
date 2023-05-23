@@ -65,6 +65,7 @@ ul {
   --bg-purple-200: #7c21a8;
   --bg-yellow-stars: #eab308;
   --background-color:#fff;
+  --bg-cover:#000000ad;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }

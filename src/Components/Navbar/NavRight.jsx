@@ -59,7 +59,7 @@ function NavRight() {
             </button>
             {/* open search */}
             {openSearch && (
-                <form onSubmit={submitSearchHandler} className={style.formNav}>
+                <form onSubmit={submitSearchHandler} className={`${style.formNav}`}>
                     <button>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ function NavRight() {
             {/* open search */}
             <button
                 onClick={boxUserHandler}
-                className={`relative ${style.btnHover}`}
+                className={`relative menuHeader ${style.btnHover}`}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

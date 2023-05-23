@@ -8,15 +8,8 @@
   padding: 0 60px;
 }
 
-.slides {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.swiper-wrapper  {
-      max-width: 1280px;
+.swiper-wrapper {
+  max-width: 1280px;
 }
 
 .textSlide {
@@ -38,8 +31,9 @@
 .textSlide h1 {
   color: var(--bg-black-100);
   font-weight: 500;
-  font-size: 55px;
   margin: 16px 0 47px;
+  position: relative;
+  z-index: 9999;
 }
 
 .btnSlide {
