@@ -5,7 +5,7 @@ import money from "../../assets/images/money.png";
 
 function EarnMoney() {
   return (
-    <div className="lg:px-20 lg:py-20">
+    <div className="lg:px-20 lg:py-20 px-14">
       <div className={`grid lg:grid-cols-2 place-items-center grid-cols-1 gap-12 ${style.earnMoney}`}>
         <div className={style.textMoney}>
           <Logo customWidth="120px" />

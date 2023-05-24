@@ -10,7 +10,7 @@ import Logo from "../Logo/Logo";
 function MenuMobile({ handleNav }) {
     return (
         <>
-            <div className={style.menuMobileRes}>
+            <div className={`w-[290px] sm:w-[500px] ${style.menuMobileRes}`}>
                 <div className={style.closeMenu}>
                     <AiOutlineClose size={20} onClick={handleNav} />
                 </div>

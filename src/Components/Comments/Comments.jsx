@@ -23,19 +23,19 @@ function Comments() {
         <h1>Good news from far away 🥇</h1>
         <p>Let's see what people think of Ciseco</p>
       </div>
-      <div className={style.imgComments}>
-        <img src={imgLeft} alt="img" className={style.imgBetween}/>
+      <div className={` ${style.imgComments}`}>
+        <img src={imgLeft} alt="img" className={`hidden md:block ${style.imgBetween}`}/>
         <img src={client} alt="img" />
-        <img src={imgRight} alt="img" className={style.imgBetween}/>
+        <img src={imgRight} alt="img" className={`hidden md:block ${style.imgBetween}`}/>
       </div>
       <div className={style.imgComma}>
         <img src={commaLeft} alt="comma" className={style.commaLeft}/>
         <img src={commaRight} alt="comma" className={style.commaRight}/>
       </div>
-      <div className={style.imgCommentBetween}>
-          <img src={imgBottom} alt="img" />
-          <img src={imgBlack} alt="img" />
-        </div>
+      <div className={` ${style.imgCommentBetween}`}>
+          <img src={imgBottom} alt="img" className="hidden md:block"/>
+          <img src={imgBlack} alt="img" className="hidden md:block"/>
+      </div>
       <div className={style.swiperComments}>
         <Swiper
           spaceBetween={30}
@@ -61,8 +61,8 @@ function Comments() {
           </SwiperSlide>
         </Swiper>
         <div className={style.images}>
-          <img src={imgGirl} alt="img" />
-          <img src={imgSmile} alt="img" />
+          <img src={imgGirl} alt="img" className="hidden md:block"/>
+          <img src={imgSmile} alt="img" className="hidden md:block"/>
         </div>
       </div>
     </div>

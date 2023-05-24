@@ -1,24 +1,22 @@
 .BlogArticle {
   background-color: var(--bg-blue-500);
   border-radius: 25px;
-  margin: 0 44px;
   padding: 70px 0;
 }
 
-.posts > div:first-child {
+.posts>div:first-child {
   display: flex;
   align-items: center;
   margin-bottom: 52px;
 }
 
-.posts > div:first-child span,
-.posts > div:first-child p {
+.posts>div:first-child span,
+.posts>div:first-child p {
   color: var(--bg-black-100);
   font-weight: 600;
-  font-size: 40px;
 }
 
-.posts > div:first-child p {
+.posts>div:first-child p {
   color: var(--black-color-700);
 }
 
@@ -101,30 +99,25 @@
 
 .blogNews p {
   color: var(--border-gray-300);
-  margin: 20px 0 18px;
+  margin: 16px 0 18px;
   max-width: 325px;
   font-weight: 500;
   font-size: 17px;
 }
 
 .BlogPicture {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.BlogPicture img {
   width: 200px;
   height: 192px;
   border-radius: 25px;
   margin-bottom: 30px;
+  object-fit: cover;
 }
 
 .blogBtn {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .blogBtn button {
@@ -141,4 +134,9 @@
 
 .blogBtn button:hover {
   background-color: var(--bg-blue-200);
+}
+
+.Articles {
+  display: flex;
+  justify-content: space-between;
 }

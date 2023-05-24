@@ -1,24 +1,21 @@
 .register {
   background-color: var(--bg-blue-400);
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  border-radius: 30px;
   margin: 100px 0;
 }
-.register > div {
-  padding-left: 40px;
+
+.register>div {
+  padding: 20px 0 0 40px;
 }
 
-.register > div:first-child > h1 {
-  font-size: 45px;
+.register>div:first-child>h1 {
   font-weight: 700;
   max-width: 375px;
   color: var(--bg-black-100);
   line-height: 1.2;
 }
 
-.register > div:first-child > p {
+.register>div:first-child>p {
   color: var(--black-color-800);
   font-weight: 500;
   margin: 20px 0 30px;
@@ -31,17 +28,17 @@
   margin: 30px 0;
 }
 
-.number > div {
+.number>div {
   margin-bottom: 15px;
 }
 
-.number > div > span {
+.number>div>span {
   color: var(--bg-black-100);
   font-weight: 600;
   font-size: 17px;
 }
 
-.number > div > button {
+.number>div>button {
   border-radius: 12px;
   margin-right: 15px;
   width: 36px;
@@ -49,17 +46,17 @@
   font-weight: 500;
 }
 
-.number > div:first-child > button {
+.number>div:first-child>button {
   color: var(--bg-purple-200);
   background-color: var(--bg-purple-100);
 }
 
-.number > div:nth-child(2) > button {
+.number>div:nth-child(2)>button {
   color: var(--bg-blue-700);
   background-color: var(--bg-blue-600);
 }
 
-.number > div:last-child > button {
+.number>div:last-child>button {
   color: var(--bg-red-900);
   background-color: var(--btn-red-100);
 }

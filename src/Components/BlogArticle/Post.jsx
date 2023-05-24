@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../../styles/BlogArticle.module.css";
-import boyBlog from "../../assets/images/boyBlog.png";
 import book from "../../assets/images/book.jpg";
 import Author from "./Author";
 
