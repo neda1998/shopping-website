@@ -1,26 +1,23 @@
 .sectionKids {
   background-color: var(--bg-color);
   border-radius: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 80px 0;
+  padding: 0 40px;
+}
+
+.sectionText{
+  padding-top: 80px;
 }
 
 .sectionKids > div:first-child {
   transform: translateY(-70px);
 }
 
-.sectionKids > div:first-child img {
-  width: 620px;
-}
-
 .sectionKids > div > h1 {
-  font-size: 45px;
   font-weight: 700;
   color: var(--bg-black-100);
   margin: 30px 0 20px;
   max-width: 320px;
+  line-height: 1.2;
 }
 
 .sectionKids > div > p {
@@ -35,7 +32,7 @@
   background-color: var(--bg-black-100);
   width: 160px;
   padding: 14px 0;
-  margin-top: 60px;
+  margin-top: 38px;
   border-radius: 26px;
   box-shadow: var(--box-shadow);
   opacity: 1;

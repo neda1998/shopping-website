@@ -10,8 +10,9 @@ function StepBuy() {
   return (
     <div className={`lg:px-20 ${style.stepBuy}`}>
       <div
-        className={`grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 ${style.StepBuy}`}
+        className={`grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 ${style.StepBuy}`}
       >
+
         <Steps
           img={serachImg}
           step="Step 1"

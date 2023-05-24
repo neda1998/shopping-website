@@ -6,10 +6,10 @@ import money from "../../assets/images/money.png";
 function EarnMoney() {
   return (
     <div className="lg:px-20 lg:py-20">
-      <div className={style.earnMoney}>
+      <div className={`grid lg:grid-cols-2 place-items-center grid-cols-1 gap-12 ${style.earnMoney}`}>
         <div className={style.textMoney}>
-          <Logo />
-          <h1>Earn free money with Ciseco</h1>
+          <Logo customWidth="120px" />
+          <h1 className="md:text-[40px] text-[24px]">Earn free money with Ciseco</h1>
           <p>With Ciseco you will get freeship & savings combo...</p>
           <div className={style.btnMoney}>
             <button className={style.btnSave}>Saving combo</button>
@@ -17,7 +17,7 @@ function EarnMoney() {
           </div>
         </div>
         <div>
-          <img src={money} alt="money" className={style.imgMoney}/>
+          <img src={money} alt="money" className={`sm:w-[500px] lg:w-[600px] ${style.imgMoney}`} />
         </div>
       </div>
     </div>

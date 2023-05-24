@@ -1,10 +1,9 @@
-import { React, useEffect, useState } from 'react';
+import { React } from 'react';
 import style from "../../styles/Navbar.module.css";
 import user from "../../assets/images/user.png";
-import DarkTheme from '../Theme/DarkTheme';
+// import DarkTheme from '../Theme/DarkTheme';
 
 function UserBox() {
-
     return (
         <div className={style.userBox}>
             <div className={style.userImg}>
@@ -90,7 +89,7 @@ function UserBox() {
                         </svg>
                     </button>
                     <span>Dark Theme</span>
-                    <DarkTheme />
+                    {/* <DarkTheme /> */}
                 </div>
                 <div className={style.itemUser}>
                     <button>

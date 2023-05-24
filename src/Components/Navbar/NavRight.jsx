@@ -108,7 +108,7 @@ function NavRight() {
             {/* open search */}
             <button
                 onClick={boxUserHandler}
-                className={`relative menuHeader ${style.btnHover}`}
+                className={`relative ${style.btnHover}`}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

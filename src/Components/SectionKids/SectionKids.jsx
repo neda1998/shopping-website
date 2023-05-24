@@ -5,14 +5,14 @@ import kids from "../../assets/images/kids.png";
 
 function SectionKids() {
   return (
-    <div className={`px-20 w-full`}>
-      <div className={style.sectionKids}>
-        <div>
+    <div className={`px-20`}>
+      <div className={`grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-24 ${style.sectionKids}`}>
+        <div className="order-2 lg:order-1">
           <img src={kids} alt="kids" />
         </div>
-        <div>
-          <Logo />
-          <h1>Special offer in kids products</h1>
+        <div className={`order-1 lg:order-2 ${style.sectionText}`}>
+          <Logo customWidth="120px"/>
+          <h1 className="lg:text-[40px] md:text-[30px] text-[23px]">Special offer in kids products</h1>
           <p>
             Fashion is a form of self-expression and autonomy at a particular
             period and place.

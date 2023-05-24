@@ -8,7 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 99;
 }
+
+.line {
+  position: absolute;
+  margin-top: 63px;
+  width: 88%;
+}
+
 .stepBuy {
   padding: 100px 20px;
   margin: 0 auto;

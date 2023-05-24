@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import style from "../../styles/Navbar.module.css";
 import logo from "../../assets/svg/logo.svg";
 
-function Logo({className}) {
+function Logo({customWidth}) {
   return (
     <div>
       <Link to="/">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" style={{width: customWidth}}/>
       </Link>
     </div>
   );
