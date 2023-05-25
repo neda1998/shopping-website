@@ -80,3 +80,37 @@ ul {
   background-color: #fff;
 }
 
+.cartSlider,
+.cartSliderTwo,
+.cartSliderThree,
+.cartSliderFour {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(254, 243, 199);
+  opacity: .9;
+  transition: opacity .3s ease-in-out;
+  cursor: pointer;
+}
+
+.cartSliderTwo {
+  background-color: rgb(254, 242, 242);
+}
+
+.cartSliderThree {
+  background-color: rgb(239, 246, 255);
+}
+
+.cartSliderFour {
+  background-color: rgb(240, 253, 244);
+}
+
+
+.cartSlider:hover,
+.cartSliderTwo:hover,
+.cartSliderThree:hover,
+.cartSliderFour:hover {
+  opacity: 1;
+  background-color: rgb(216, 197, 197);
+}

@@ -59,16 +59,16 @@ const SliderCart = () => {
         >
           <SwiperNavButtons />
           <SwiperSlide>
-            <SliderShow img={shopCoat} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className=""/>
+            <SliderShow img={shopCoat} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSlider"/>
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSlider"/>
+          <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderTwo"/>
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="e"/>
+          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderThree"/>
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className=""/>
+          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderFour"/>
           </SwiperSlide>
           <SwiperSlide>
             <div></div>

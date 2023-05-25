@@ -13,7 +13,7 @@ function MenuMobile({ handleNav }) {
     const [mobileTheme, setMobileTheme] = useState(false);
     return (
         <>
-            <div className={`w-[290px] sm:w-[500px] ${style.menuMobileRes}`}>
+            <div className={`w-[380px] sm:w-[500px] ${style.menuMobileRes}`}>
                 <div className={style.closeMenu}>
                     <AiOutlineClose size={20} onClick={handleNav} />
                 </div>

@@ -3,7 +3,7 @@ import style from "../../styles/SliderCart.module.css";
 
 function SliderShow({img,title, text, content, className}) {
     return (
-        <div className={style.className}>
+        <div className={className}>
             <div className={style.cart}>
                 <div>
                     <p>{title}</p>
