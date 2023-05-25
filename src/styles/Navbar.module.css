@@ -582,7 +582,7 @@ body.dark {
 .inputMenuMobile {
   display: flex;
   align-items: center;
-  background-color: var(--bg-green-100);
+  background-color: #f6fff6;
   border-radius: 5px;
   padding: 0 10px;
   height: 46px;
@@ -639,7 +639,6 @@ body.dark {
   background-color: var(--bg-black-100);
   border-radius: 25px;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .1), 0 8px 10px -6px rgba(0, 0, 0, .1);
-  ;
 }
 
 .itemsDropMenu {
@@ -650,7 +649,7 @@ body.dark {
   margin-left: 25px;
 }
 
-.dropMenuMobile p {
+.dropMenuMobile  {
   margin-bottom: 20px;
   color: var(--black-color-800);
   font-weight: 500;

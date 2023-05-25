@@ -10,7 +10,6 @@
 .headSlider p {
   color: var(--bg-black-100);
   font-weight: 700;
-  /* font-size: 35px; */
 }
 
 .headSlider p {
@@ -22,9 +21,9 @@
   align-items: center;
 }
 
-.imgCart {
+/* .imgCart {
   width: 190px;
-}
+} */
 
 .cartSlider,
 .cartSliderTwo,
@@ -34,7 +33,7 @@
   align-items: center;
   border-radius: 20px;
   padding: 20px;
-  width: 460px;
+  /* width: 460px; */
   background-color: rgb(254, 243, 199);
   opacity: .9;
   transition: opacity .3s ease-in-out;
@@ -76,7 +75,7 @@
   font-weight: 700;
   color: var(--bg-black-100);
   margin: 13px 0 30px;
-  font-size: 23px;
+  /* font-size: 23px; */
 }
 
 .cart>div>button {

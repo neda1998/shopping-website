@@ -9,6 +9,7 @@ import shopCoat from "../../assets/images/shopCoat.png";
 import ball from "../../assets/images/ball.png";
 import perfume from "../../assets/images/perfume.png";
 import dog from "../../assets/images/dog.png";
+import SliderShow from "./SliderShow";
 
 const SliderCart = () => {
   return (
@@ -22,57 +23,52 @@ const SliderCart = () => {
       <div>
         <Swiper
           modules={[Navigation, Pagination, A11y]}
-          spaceBetween={180}
           slidesPerView={3}
+          breakpoints={{
+            290: {
+              slidesPerView: 1,
+            },
+            290: {
+              spaceBetween: 45
+            },
+            640: {
+              slidesPerView: 1,
+            },
+            640: {
+              spaceBetween: 45
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            768: {
+              spaceBetween: 45
+            },
+            // 900: {
+            //   slidesPerView: 2,
+            // },
+            // 900: {
+            //   spaceBetween: 238
+            // },
+            1024: {
+              slidesPerView: 3,
+            },
+            1024: {
+              spaceBetween: 45
+            }
+          }}
         >
           <SwiperNavButtons />
           <SwiperSlide>
-            <div className={style.cartSlider}>
-              <div className={style.cart}>
-                <div>
-                  <p>Explore new arrivals</p>
-                  <h3>Shop the latest from top brands</h3>
-                  <button>Show me all</button>
-                </div>
-                <img src={shopCoat} alt="shopCoat" className={style.imgCart} />
-              </div>
-            </div>
+            <SliderShow img={shopCoat} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className=""/>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={style.cartSliderTwo}>
-              <div className={style.cart}>
-                <div>
-                  <p>Explore new arrivals</p>
-                  <h3>Shop the latest from top brands</h3>
-                  <button>Show me all</button>
-                </div>
-                <img src={ball} alt="ball" className={style.imgCart} />
-              </div>
-            </div>
+          <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSlider"/>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={style.cartSliderThree}>
-              <div className={style.cart}>
-                <div>
-                  <p>Explore new arrivals</p>
-                  <h3>Shop the latest from top brands</h3>
-                  <button>Show me all</button>
-                </div>
-                <img src={perfume} alt="perfume" className={style.imgCart} />
-              </div>
-            </div>
+          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="e"/>
           </SwiperSlide>
           <SwiperSlide>
-            <div className={style.cartSliderFour}>
-              <div className={style.cart}>
-                <div>
-                  <p>Explore new arrivals</p>
-                  <h3>Shop the latest from top brands</h3>
-                  <button>Show me all</button>
-                </div>
-                <img src={dog} alt="dog" className={style.imgCart} />
-              </div>
-            </div>
+          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className=""/>
           </SwiperSlide>
           <SwiperSlide>
             <div></div>
