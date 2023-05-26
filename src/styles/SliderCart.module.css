@@ -50,3 +50,7 @@
   padding: 10px 0;
 }
 
+.imgCart {
+  width: 100%;
+  max-width: 170px;
+}

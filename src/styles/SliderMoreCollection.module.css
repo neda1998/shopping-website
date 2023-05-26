@@ -2,6 +2,11 @@
   margin: 100px 0 50px;
 }
 
+.swiperSlideShow {
+  padding: 100px 0;
+  margin: -100px 0;
+}
+
 .sliderMore > div > p {
   color: var(--bg-black-100);
   font-weight: 700;

@@ -1,25 +1,17 @@
 .slideShow {
   background-color: var(--bg-green-100);
   height: 100%;
+  margin-top: 80px;
 }
 
-.slideSwiper {
-  margin: 0 auto;
-  padding: 0 60px;
-}
-
-.swiper-wrapper {
+/* .swiper-wrapper {
   max-width: 1280px;
-}
+} */
 
 .textSlide {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-}
-
-.imageSlideTwo {
-  margin-top: 210px;
+  justify-content: center;
 }
 
 .textSlide p {
@@ -54,8 +46,8 @@
 
 .imgSlide {
   object-fit: contain;
-  max-width: 600px;
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex; */
   margin-top: 100px;
+  width: 470px;
+  height: 470px;
 }

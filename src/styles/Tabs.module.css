@@ -31,7 +31,7 @@
 }
 
 .tabsItems:hover {
-  box-shadow: 2px 8px 40px rgba(0,0,0,.08);
+  box-shadow: 2px 8px 40px rgba(0, 0, 0, .08);
 }
 
 .tabsItems:hover .tabsBody span,
@@ -64,21 +64,22 @@
   margin-top: 30px;
 }
 
-.tabsTitle > div:first-child {
+.tabsTitle>div:first-child {
   display: flex;
   flex-direction: column;
 }
 
-.tabsTitle > div:first-child p {
+.tabsTitle>div:first-child p {
   color: var(--black-color-800);
   font-weight: 500;
 }
 
-.tabsTitle > div:first-child h3 {
+.tabsTitle>div:first-child h3 {
   color: var(--bg-black-100);
   font-weight: 700;
-  font-size: 35px;
+  font-size: 26px;
   margin-bottom: 123px;
+  white-space: nowrap;
 }
 
 .tabsBody {
@@ -87,7 +88,8 @@
 }
 
 .tabsBody span,
-.tabsBody button, .tabsItems {
+.tabsBody button,
+.tabsItems {
   transition: color 0.2s ease-in-out;
 }
 
@@ -98,5 +100,5 @@
 }
 
 .tabLineImg img {
-  width: 100%;
+  max-width: 190px;
 }

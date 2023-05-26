@@ -13,47 +13,30 @@ import SliderShow from "./SliderShow";
 
 const SliderCart = () => {
   return (
-    <div className="px-16">
+    <div className="lg:px-20 px-10">
       <div className={`${style.headSlider}`}>
         <div>
-          <span className="lg:text-4xl md:text-2xl text-xs w-100">Discover more.</span>
-          <p className="lg:text-4xl md:text-2xl text-xs w-100">Good things are waiting for you</p>
+          <span>Discover more.</span>
+          <p>Good things are waiting for you</p>
         </div>
       </div>
       <div>
         <Swiper
           modules={[Navigation, Pagination, A11y]}
           slidesPerView={3}
+          spaceBetween={15}
           breakpoints={{
             290: {
               slidesPerView: 1,
             },
-            290: {
-              spaceBetween: 45
-            },
             640: {
               slidesPerView: 1,
-            },
-            640: {
-              spaceBetween: 45
             },
             768: {
               slidesPerView: 2,
             },
-            768: {
-              spaceBetween: 45
-            },
-            // 900: {
-            //   slidesPerView: 2,
-            // },
-            // 900: {
-            //   spaceBetween: 238
-            // },
             1024: {
-              slidesPerView: 3,
-            },
-            1024: {
-              spaceBetween: 45
+              slidesPerView: 3.65,
             }
           }}
         >

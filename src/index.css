@@ -70,16 +70,6 @@ ul {
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }
 
-
-.dark {
-  background-color: #666;
-  color: #fff;
-}
-
-.light{
-  background-color: #fff;
-}
-
 .cartSlider,
 .cartSliderTwo,
 .cartSliderThree,
@@ -87,7 +77,7 @@ ul {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  padding: 20px;
+  padding: 14px;
   background-color: rgb(254, 243, 199);
   opacity: .9;
   transition: opacity .3s ease-in-out;
@@ -113,4 +103,13 @@ ul {
 .cartSliderFour:hover {
   opacity: 1;
   background-color: rgb(216, 197, 197);
+}
+
+body.dark {
+  background-color: #666;
+  color: #fff;
+}
+
+body.light {
+  background-color: #fff;
 }

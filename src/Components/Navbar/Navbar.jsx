@@ -24,7 +24,7 @@ function Navbar() {
             {nav ? <AiOutlineClose size={22} /> : <HiOutlineMenuAlt4 size={22} />}
           </div>
           {/* menu mobile */}
-          <Logo className={""} />
+          <Logo customDisplay="navLogo" />
           <div>
             <ul className={`${style.navItem} ${style.menuHeader} md:flex`}>
               <li>

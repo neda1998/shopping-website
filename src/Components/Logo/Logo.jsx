@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/svg/logo.svg";
 
-function Logo({customWidth}) {
+function Logo({customWidth, customDisplay}) {
   return (
-    <div>
+    <div className={customDisplay}>
       <Link to="/">
         <img src={logo} alt="logo" style={{width: customWidth}}/>
       </Link>

@@ -665,6 +665,14 @@ body.dark {
   z-index: 1;
 }
 
+.navLogo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+}
+
 @media screen and (max-width:768px) {
   .menuHeader, .btnSearch {
     display: none;

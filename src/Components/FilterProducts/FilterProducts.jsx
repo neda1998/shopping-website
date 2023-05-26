@@ -31,11 +31,6 @@ function FilterProducts() {
     });
     setData(result);
   };
-
-  // change bg button when click on that
-  // const changeBgBtnHandler = () => {
-  //   setChange(!changeBgBtn);
-  // }
   return (
     <div className={`px-20 ${style.filterProducts}`}>
       <h1>What's trending now</h1>
@@ -489,59 +484,57 @@ function FilterProducts() {
         </div>
       )}
       {/* category */}
-      <div>
-        <div className="grid lg:grid-cols-4 lg:gap-12 md:grid-cols-2 md:gap-4 grid-cols-1">
-          {data.map((values) => {
-            const { id, title, price, image, para } = values;
-            return (
-              <>
-                <div key={id}>
-                  <div className={style.imgCartGreen}>
-                    <div className={style.heartIcon}>
-                      <button>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          strokeWidth={1.5}
-                          stroke="currentColor"
-                          className="w-6 h-6"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-                          />
-                        </svg>
-                      </button>
-                      
-                    </div>
-                    <img src={image} alt="blose" className={style.images} />
+      <div className="grid lg:grid-cols-4 lg:gap-12 md:grid-cols-2 md:gap-8 grid-cols-1">
+        {data.map((values) => {
+          const { id, title, price, image, para } = values;
+          return (
+            <>
+              <div key={id}>
+                <div className={style.imgCartGreen}>
+                  <div className={style.heartIcon}>
+                    <button>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                        />
+                      </svg>
+                    </button>
+
                   </div>
-                  <div className={style.colorChoose}>
-                    <img src={blue} alt="blue" />
-                    <img src={blueLight} alt="blueLight" />
-                    <img src={blueDark} alt="blueDark" />
-                    <img src={brown} alt="brown" />
-                    <img src={black} alt="black" />
+                  <img src="../../assests/images/bag.png" alt="blose" className={style.images} />
+                </div>
+                <div className={style.colorChoose}>
+                  <img src={blue} alt="blue" />
+                  <img src={blueLight} alt="blueLight" />
+                  <img src={blueDark} alt="blueDark" />
+                  <img src={brown} alt="brown" />
+                  <img src={black} alt="black" />
+                </div>
+                <div className={style.textSlideAdd}>
+                  <p>{title}</p>
+                  <span>{para}</span>
+                </div>
+                <div className={style.btnPriceAdd}>
+                  <div>
+                    <button>${price}.00</button>
                   </div>
-                  <div className={style.textSlideAdd}>
-                    <p>{title}</p>
-                    <span>{para}</span>
-                  </div>
-                  <div className={style.btnPriceAdd}>
-                    <div>
-                      <button>${price}.00</button>
-                    </div>
-                    <div>
-                      <span>⭐ 4.7 (48 reviews)</span>
-                    </div>
+                  <div>
+                    <span>⭐ 4.7 (48 reviews)</span>
                   </div>
                 </div>
-              </>
-            );
-          })}
-        </div>
+              </div>
+            </>
+          );
+        })}
       </div>
     </div>
   );

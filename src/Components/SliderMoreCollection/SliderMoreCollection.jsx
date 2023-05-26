@@ -18,7 +18,8 @@ function SliderMoreCollection() {
           <p>Shop by department</p>
         </div>
       </div>
-      <Swiper
+      <Swiper 
+      className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
         //   spaceBetween={10}
         slidesPerView={4}

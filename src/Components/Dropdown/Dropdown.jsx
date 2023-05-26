@@ -132,8 +132,8 @@ const Dropdown = ({ title, subDropdowns }) => {
 
   return (
     <div>
-      <div className={style.dropMenu}>
-      <span onClick={toggleDropdown} className="dropdown-button">
+      <div className={style.dropMenu} onClick={toggleDropdown}>
+      <span>
         {title}
       </span>
       <button>

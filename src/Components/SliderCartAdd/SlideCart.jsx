@@ -1,9 +1,4 @@
 import React from 'react';
-import imgBlose from "../../assets/images/imgBlose.png";
-import imgBag from "../../assets/images/imgBag.png";
-import imgJump from "../../assets/images/imgJump.png";
-import toy from "../../assets/images/toy.png";
-import imgShort from "../../assets/images/imgShort.png";
 import blue from "../../assets/images/blue.jpg";
 import brown from "../../assets/images/brown.jpg";
 import blueLight from "../../assets/images/blueLight.jpg";
@@ -11,9 +6,9 @@ import black from "../../assets/images/black.jpg";
 import blueDark from "../../assets/images/blueDark.jpg";
 import style from "../../styles/SliderCartAdd.module.css";
 
-function SlideCart({}) {
+function SlideCart({ img }) {
   return (
-      <div>
+    <div>
       <div className={style.imgCartGreen}>
         <button>
           <svg
@@ -31,7 +26,7 @@ function SlideCart({}) {
             />
           </svg>
         </button>
-        <img src={imgBag} alt="blose" className={style.images}/>
+        <img src={img} alt="img" className={style.images} />
       </div>
       <div className={style.colorChoose}>
         <img src={blue} alt="blue" />
