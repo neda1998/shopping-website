@@ -32,7 +32,7 @@ function FilterProducts() {
     setData(result);
   };
   return (
-    <div className={`px-20 ${style.filterProducts}`}>
+    <div className={`${style.filterProducts}`}>
       <h1>What's trending now</h1>
       <p>Discover the most trending products in Ciseco.</p>
       <div className={style.filter}>
@@ -510,7 +510,7 @@ function FilterProducts() {
                     </button>
 
                   </div>
-                  <img src="../../assests/images/bag.png" alt="blose" className={style.images} />
+                  <img src={image} alt="blose" className={style.images} />
                 </div>
                 <div className={style.colorChoose}>
                   <img src={blue} alt="blue" />

@@ -22,6 +22,7 @@ function SliderCartAdd() {
         </div>
       </div>
       <Swiper
+        className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={30}
         slidesPerView={4}

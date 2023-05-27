@@ -26,9 +26,10 @@ function SliderChooseProduct() {
         <h1>Chosen by our experts</h1>
       </div>
       <Swiper
+        className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
-        spaceBetween={20}
         slidesPerView={3}
+        spaceBetween={20}
         breakpoints={{
           290: {
             slidesPerView: 1,

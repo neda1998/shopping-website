@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import { SwiperNavButtons } from "./SwiperNavButton";
+import { SwiperNavButtons } from "../SwiperNavButton/SwiperNavButton";
 import style from "../../styles/SliderMoreCollection.module.css";
 import travel from "../../assets/images/travel.png";
 import pet from "../../assets/images/pet.png";
@@ -13,7 +13,7 @@ import pharmacy from "../../assets/images/pharmacy.png";
 function SliderMoreCollection() {
   return (
     <>
-      <div className={`lg:px-20 ${style.sliderMore}`}>
+      <div className={`${style.sliderMore}`}>
         <div>
           <p>Shop by department</p>
         </div>
@@ -21,8 +21,19 @@ function SliderMoreCollection() {
       <Swiper 
       className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
-        //   spaceBetween={10}
         slidesPerView={4}
+        spaceBetween={20}
+        breakpoints={{
+          290: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4,
+          }
+        }}
       >
         <SwiperNavButtons />
         <SwiperSlide>

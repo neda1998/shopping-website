@@ -1,7 +1,8 @@
 .swiperNavBtns {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 87px;
+    margin: 0 77px 50px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .swiperNavBtns .prevBtn,

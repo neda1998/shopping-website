@@ -13,6 +13,7 @@ const Slide = () => {
     <div className={style.slideShow}>
       <div className={style.slideSwiper}>
         <Swiper
+          className={style.swiperSlideShow}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{

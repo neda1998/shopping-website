@@ -23,6 +23,7 @@ const SliderCart = () => {
       </div>
       <div>
         <Swiper
+          className={style.swiperSlideShow}
           modules={[Navigation, Pagination, A11y]}
           slidesPerView={3}
           spaceBetween={15}
@@ -43,16 +44,16 @@ const SliderCart = () => {
         >
           <SwiperNavButtons />
           <SwiperSlide>
-            <SliderShow img={shopCoat} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSlider"/>
+            <SliderShow img={shopCoat} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSlider" />
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderTwo"/>
+            <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderTwo" />
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderThree"/>
+            <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderThree" />
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderFour"/>
+            <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderFour" />
           </SwiperSlide>
           <SwiperSlide>
             <div></div>

@@ -1,3 +1,8 @@
+.swiperSlideShow {
+  padding: 100px 0;
+  margin: -100px 0;
+}
+
 .headSlider {
   margin: 100px 0 50px;
 }
@@ -16,30 +21,6 @@
 .headSlider>div {
   display: flex;
   align-items: center;
-}
-
-.swiperNavBtns {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0 87px 50px 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.swiperNavBtns .prevBtn,
-.swiperNavBtns .nextBtn {
-  border-radius: 50px;
-  color: var(--black-color-800);
-  font-size: 32px;
-  transition: all 0.4s ease-in-out;
-  margin-right: 15px;
-  border: 2px solid var(--bg-white);
-}
-
-.swiperNavBtns .prevBtn:hover,
-.swiperNavBtns .nextBtn:hover {
-  border: 2px solid var(--border-gray-200);
 }
 
 .imgCartGreen {

@@ -1,6 +1,6 @@
 .stepBuy {
+  padding: 70px;
   border-top: 2px solid var(--border-gray-100);
-  border-bottom: 2px solid var(--border-gray-100);
 }
 
 .steps {
@@ -16,12 +16,6 @@
   position: absolute;
   margin-top: 63px;
   width: 88%;
-}
-
-.stepBuy {
-  padding: 100px 20px;
-  margin: 0 auto;
-  max-width: 1280px;
 }
 
 .searchImg {

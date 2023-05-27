@@ -7,7 +7,7 @@
   margin: -100px 0;
 }
 
-.sliderMore > div > p {
+.sliderMore>div>p {
   color: var(--bg-black-100);
   font-weight: 700;
   margin: 40px 0;
@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.travel > div {
+.travel>div {
   background-color: var(--bg-blue-800);
   border-radius: 20px;
 }
@@ -47,17 +47,17 @@
   font-weight: 500;
 }
 
-.pharmacy > div {
+.pharmacy>div {
   background-color: var(--bg-blue-300);
   border-radius: 20px;
 }
 
-.sport > div {
+.sport>div {
   background-color: var(--bg-box-slider2);
   border-radius: 20px;
 }
 
-.pet > div {
+.pet>div {
   background-color: var(--bg-box-slider);
   border-radius: 20px;
 }
@@ -72,11 +72,11 @@
   height: 100%;
 }
 
-.moreCollection > div {
+.moreCollection>div {
   margin-bottom: 10px;
 }
 
-.moreCollection > div > span {
+.moreCollection>div>span {
   color: var(--bg-black-100);
   font-weight: 600;
   padding-right: 8px;

@@ -1,5 +1,5 @@
 .filterProducts {
-  margin: 100px 0 260px;
+  margin: 70px 0 150px;
 }
 
 .filterProducts h1 {
@@ -87,7 +87,7 @@
   justify-content: space-between;
 }
 
-.btnPriceAdd > div > button {
+.btnPriceAdd>div>button {
   border: 2px solid var(--bg-green-200);
   background-color: var(--bg-white);
   color: var(--bg-green-200);
@@ -96,7 +96,7 @@
   padding: 2px 13px;
 }
 
-.btnPriceAdd > div > span {
+.btnPriceAdd>div>span {
   color: var(--black-color-800);
   font-weight: 400;
 }
