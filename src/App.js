@@ -1,25 +1,22 @@
-import { Routes, Route } from "react-router-dom";
+import RoutesWebsite from "./Components/RoutesWebsite/RoutesWebsite";
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
+import AppContext from "./Components/Context/AppContext";
 import "./App.css";
-import Home from "./pages/Home";
-import Men from "./pages/Men";
-import Women from "./pages/Women";
-import Beauty from "./pages/Beauty";
-import Sport from "./pages/Sport";
-import Template from "./pages/Template";
-import Explore from "./pages/Explore";
+
 
 function App() {
+  const headerContext = <h1>header</h1>;
+  const footerContext = <p>footer</p>
   return (
     <>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="men" element={<Men />} />
-        <Route path="women" element={<Women />} />
-        <Route path="beauty" element={<Beauty />} />
-        <Route path="sport" element={<Sport />} />
-        <Route path="template" element={<Template />} />
-        <Route path="explore" element={<Explore />} />
-      </Routes>
+      <AppContext.Provider value={{ headerContext, footerContext }}>
+        <div>
+          <Navbar />
+          <RoutesWebsite />
+          <Footer />
+        </div>
+      </AppContext.Provider>
     </>
   );
 }

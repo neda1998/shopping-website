@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import { SwiperNavButtons } from "./SwiperNavButton";
+import { SwiperNavButtons } from "../SwiperNavButton/SwiperNavButton";
 import clothes from "../../assets/images/clothes.png";
 import style from "../../styles/SliderChooseProduct.module.css";
 import body from "../../assets/images/body.png";
@@ -21,14 +21,25 @@ import SliderProduct from "./SliderProduct";
 
 function SliderChooseProduct() {
   return (
-    <div className="lg:px-20">
+    <div>
       <div className={style.headSliderChoose}>
         <h1>Chosen by our experts</h1>
       </div>
       <Swiper
         modules={[Navigation, Pagination, A11y]}
-        spaceBetween={30}
+        spaceBetween={20}
         slidesPerView={3}
+        breakpoints={{
+          290: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          }
+        }}
       >
         <SwiperNavButtons />
         <SwiperSlide>

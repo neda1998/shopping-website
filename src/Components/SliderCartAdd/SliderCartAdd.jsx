@@ -14,7 +14,7 @@ import imgBag from "../../assets/images/imgBag.png";
 
 function SliderCartAdd() {
   return (
-    <div className="lg:px-20 px-10 mb-14">
+    <div className="mb-14">
       <div className={`${style.headSlider}`}>
         <div>
           <span>New Arrivals.</span>

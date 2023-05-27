@@ -1,8 +1,18 @@
-import React from 'react'
+import React from 'react';
+import style from "../styles/MenPage.module.css";
+import EarnMoney from "../Components/EarnMoney/EarnMoney";
+import SLiderChooseProduct from "../Components/SliderChooseProduct/SliderChooseProduct";
 
 function Men() {
   return (
-    <div>Men</div>
+    <div>
+      <div className={style.MenPage}>
+        <h1>Men Collection</h1>
+        <p>We not only help you design exceptional products, but also make it easy for you to share your designs with more like-minded people.</p>
+      </div>
+      <SLiderChooseProduct />
+      <EarnMoney />
+    </div>
   )
 }
 

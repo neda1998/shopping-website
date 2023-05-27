@@ -111,5 +111,57 @@ body.dark {
 }
 
 body.light {
-  background-color: #fff;
+  
+}
+
+h1 {
+  color: var(--bg-black-100);
+  font-weight: 700;
+}
+
+p {
+  color: var(--black-color-800);
+  font-weight: 400;
+}
+
+@media screen and (max-width:640px) {
+  h1 {
+font-size: 18px;
+  };
+  p {
+    font-size: 14px;
+  }; 
+  span {
+
+  }
+}
+
+@media screen and (min-width:640px) {
+  h1 {
+font-size: 22px;
+  };
+  p {
+    font-size: 17px;
+  }; 
+  span {
+
+  }
+}
+
+@media screen and (min-width:768px) {
+  h1 {
+font-size: 27px;
+  }; 
+  span {
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+  h1 {
+    font-size: 33px;
+  }; 
+  span {
+
+  }
 }

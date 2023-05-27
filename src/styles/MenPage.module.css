@@ -1,0 +1,13 @@
+.MenPage {
+    margin: 150px 0 70px;
+    border-bottom: 1px solid var(--border-gray-100);
+    padding-bottom: 54px;
+}
+
+.MenPage h1 {
+    margin-bottom: 10px;
+}
+
+.MenPage p {
+    max-width: 566px;
+}

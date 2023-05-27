@@ -13,7 +13,8 @@ import SliderShow from "./SliderShow";
 
 const SliderCart = () => {
   return (
-    <div className="lg:px-20 px-10">
+    <div className="lg:px
+    l-20 pl-10">
       <div className={`${style.headSlider}`}>
         <div>
           <span>Discover more.</span>
@@ -36,7 +37,7 @@ const SliderCart = () => {
               slidesPerView: 2,
             },
             1024: {
-              slidesPerView: 3.65,
+              slidesPerView: 2.85,
             }
           }}
         >
@@ -48,10 +49,10 @@ const SliderCart = () => {
           <SliderShow img={ball} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderTwo"/>
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderThree"/>
+          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderThree"/>
           </SwiperSlide>
           <SwiperSlide>
-          <SliderShow img={dog} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderFour"/>
+          <SliderShow img={perfume} title="Explore new arrivals" text="Show me all" content="Shop the latest from top brands" className="cartSliderFour"/>
           </SwiperSlide>
           <SwiperSlide>
             <div></div>
