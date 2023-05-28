@@ -7,7 +7,7 @@ import style from "../../styles/Product.module.css";
 
 function SliderProducts() {
     return (
-        <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-3 md:gap-6'>
+        <div className='grid'>
             <div>
                 <img src={productAll} alt="clothes" className={style.imgSlidePro}/>
             </div>

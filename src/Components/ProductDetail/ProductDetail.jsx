@@ -18,10 +18,10 @@ function ProductDetail() {
                 <p>Soft touch water based printed in the USA</p>
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
-                <BoxDetail title="Free shipping" detail="On orders over $50.00" customBackground="#FEF2F2" />
-                <BoxDetail title="Very easy to return" detail="Just phone number." customBackground="#F0F9FF" />
-                <BoxDetail title="Nationwide Delivery" detail="Fast delivery nationwide." customBackground="#F0FDF4" />
-                <BoxDetail title="Refunds policy" detail="60 days return for any reason" customBackground="#FFFBEB" />
+                <BoxDetail />
+                {/* <BoxDetail customBackground="" />
+                <BoxDetail customBackground="" />
+                <BoxDetail customBackground="" /> */}
             </div>
         </div>
     )
