@@ -6,6 +6,7 @@ import Beauty from "../../pages/Beauty";
 import Sport from "../../pages/Sport";
 import Template from "../../pages/Template";
 import Explore from "../../pages/Explore";
+import Product from "../../pages/Product";
 
 function RoutesWebsite() {
   return (
@@ -18,6 +19,7 @@ function RoutesWebsite() {
         <Route path="sport" element={<Sport />} />
         <Route path="template" element={<Template />} />
         <Route path="explore" element={<Explore />} />
+        <Route path="product" element={<Product />} />
       </Routes>
     </>
   );

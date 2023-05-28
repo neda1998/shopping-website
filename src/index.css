@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color:var(--background-color);
+  background-color: var(--background-color);
   color: var(--text-color);
 }
 
@@ -64,8 +64,9 @@ ul {
   --bg-purple-100: #f3e8ff;
   --bg-purple-200: #7c21a8;
   --bg-yellow-stars: #eab308;
-  --background-color:#fff;
-  --bg-cover:#000000ad;
+  --background-color: #fff;
+  --bg-cover: #000000ad;
+  --bg-Accordion:#F3F7FA;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }
@@ -110,9 +111,7 @@ body.dark {
   color: #fff;
 }
 
-body.light {
-  
-}
+body.light {}
 
 h1 {
   color: var(--bg-black-100);
@@ -120,48 +119,61 @@ h1 {
 }
 
 p {
+  color: var(--black-color-700);
+  font-weight: 500;
+}
+
+span {
   color: var(--black-color-800);
   font-weight: 400;
 }
 
 @media screen and (max-width:640px) {
   h1 {
-font-size: 18px;
-  };
+    font-size: 18px;
+  }
+
   p {
     font-size: 14px;
-  }; 
-  span {
-
   }
+
+  ;
+
+  span {}
 }
 
 @media screen and (min-width:640px) {
   h1 {
-font-size: 22px;
-  };
+    font-size: 22px;
+  }
+
+  ;
+
   p {
     font-size: 17px;
-  }; 
-  span {
-
   }
+
+  ;
+
+  span {}
 }
 
 @media screen and (min-width:768px) {
   h1 {
-font-size: 27px;
-  }; 
-  span {
-
+    font-size: 27px;
   }
+
+  ;
+
+  span {}
 }
 
 @media screen and (min-width:1024px) {
   h1 {
     font-size: 33px;
-  }; 
-  span {
-
   }
+
+  ;
+
+  span {}
 }

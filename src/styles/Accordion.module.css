@@ -1,0 +1,26 @@
+.Accordion {
+    background-color: var(--bg-Accordion);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 13px;
+    opacity: .7;
+}
+
+.Accordion:hover {
+    opacity: 1;
+}
+
+.Accordion h6 {
+    color: var(--bg-black-100);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.accordionPage {
+    margin-bottom: 39px;
+    border-bottom: 1px solid var(--border-gray-100);
+    padding-bottom: 44px;
+}

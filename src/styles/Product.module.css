@@ -1,0 +1,93 @@
+.product {
+    margin-top: 170px;
+}
+
+.productSlider {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgSlidePro {
+    border-radius: 12px;
+}
+
+.productImg img {
+    width: 380px;
+    border-radius: 12px;
+    height: 295px;
+    object-fit: cover;
+}
+
+.headText {
+    margin: 40px 0 20px;
+}
+
+.properties,
+.property {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.properties {
+    justify-content: space-between;margin-bottom: 40px;
+}
+
+.property h5,
+.property h6 {
+    text-decoration: underline;
+    font-weight: 500;
+    color: var(--bg-black-100);
+    opacity: .8;
+}
+
+.property h6 {
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.dot {
+    padding: 0 7px 0 2px;
+    margin-bottom: 11px;
+}
+
+.property button {
+    opacity: .8;
+}
+
+.sharePost {
+    border-radius: 6px;
+    transition: background-color .3s ease-in-out;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sharePost:hover {
+    background-color: var(--bg-blue-200);
+}
+
+.sharePost p{
+    margin-left: 11px;
+}
+
+.boxDetail {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.boxDetail h6 {
+    font-weight: 600;
+    color: var(--bg-black-100);
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+.spaceHead {
+    margin-bottom: 35px;
+}
+
+.paraDetail {
+    margin-bottom: 20px;
+}
