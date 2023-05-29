@@ -13,7 +13,7 @@ import SliderCollection from "./SliderCollection";
 
 function SliderMoreCollection({ img }) {
   return (
-    <>
+    <div className="md:px-20 px-10">
       <div className={`${style.sliderMore}`}>
         <div>
           <h1>Shop by department</h1>
@@ -73,7 +73,7 @@ function SliderMoreCollection({ img }) {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
 

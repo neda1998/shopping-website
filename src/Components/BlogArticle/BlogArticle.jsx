@@ -8,11 +8,12 @@ import flowerPlate from "../../assets/images/plate.jpg";
 
 function BlogArticle() {
   return (
-    <div className={`${style.BlogArticle}`}>
+  <div className="md:px-20 px-10">
+      <div className={`${style.BlogArticle}`}>
       <div className={`${style.posts}`}>
         <div>
-          <span>The latest news.</span>
-          <p>From the Ciseco blog</p>
+          <h1>The latest news.</h1>
+          <h1 className={style.textBlogArticle}>From the Ciseco blog</h1>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
           <Post />
@@ -27,6 +28,7 @@ function BlogArticle() {
         </div>
       </div>
     </div>
+  </div>
   );
 }
 

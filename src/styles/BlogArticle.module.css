@@ -72,12 +72,6 @@
   margin: 0 4px;
 }
 
-.author p,
-.author span {
-  color: var(--black-color-800);
-  font-weight: 500;
-}
-
 .blogNews {
   display: flex;
   flex-direction: column;
@@ -101,8 +95,6 @@
   color: var(--border-gray-300);
   margin: 16px 0 18px;
   max-width: 325px;
-  font-weight: 500;
-  font-size: 17px;
 }
 
 .BlogPicture {
@@ -117,7 +109,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100vw; */
 }
 
 .blogBtn button {
@@ -139,4 +130,8 @@
 .Articles {
   display: flex;
   justify-content: space-between;
+}
+
+.textBlogArticle {
+  color: var(--black-color-700);
 }
