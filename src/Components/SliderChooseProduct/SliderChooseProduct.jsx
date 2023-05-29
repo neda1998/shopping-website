@@ -23,7 +23,7 @@ function SliderChooseProduct() {
   return (
     <div>
       <div className={style.headSliderChoose}>
-        <h1>Chosen by our experts</h1>
+        <h1>Choosen by our experts</h1>
       </div>
       <Swiper
         className={style.swiperSlideShow}

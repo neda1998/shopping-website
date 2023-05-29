@@ -12,7 +12,7 @@ function Footer() {
     <AppContext.Consumer>
       {({footerContent}) => (
         <div className={style.footer}>
-        <div className="lg:hidden flex items-center sm:justify-start justify-between mb-10 sm:px-20 px-10">
+        <div className="lg:hidden flex items-center sm:justify-start justify-between mb-10">
             <Logo />
            <div className="flex items-center sm:ml-10">
            <div className={`${style} ${style.socialMedia}`}>
@@ -29,7 +29,7 @@ function Footer() {
             </div>
            </div>
           </div>
-        <div className="sm:px-20 px-10 grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 sm:gap-8 gap-4">
+        <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 sm:gap-8 gap-4">
           <div className="hidden lg:block">
             <Logo />
             <div className={`${style.logoFooter} ${style.socialMedia}`}>

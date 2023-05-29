@@ -14,11 +14,11 @@ import imgBag from "../../assets/images/imgBag.png";
 
 function SliderCartAdd() {
   return (
-    <div className="mb-14">
+    <div className="mb-24">
       <div className={`${style.headSlider}`}>
         <div>
-          <span>New Arrivals.</span>
-          <p>Rey backpacks & bags</p>
+          <h1>New Arrivals.</h1>
+          <h1 className={style.textSliderCardAdd}>Rey backpacks & bags</h1>
         </div>
       </div>
       <Swiper
@@ -28,9 +28,6 @@ function SliderCartAdd() {
         slidesPerView={4}
         breakpoints={{
           290: {
-            slidesPerView: 1,
-          },
-          640: {
             slidesPerView: 1,
           },
           768: {

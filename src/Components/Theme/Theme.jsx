@@ -6,9 +6,7 @@ const Theme = () => {
 
     useEffect(() => {
         const body = document.body;
-        // const textColor = isDarkMode ? 'light' : 'dark';
         body.className = isDarkMode ? 'dark' : 'light';
-        // body.style.color = textColor;
     }, [isDarkMode]);
 
     const toggleTheme = () => {

@@ -7,14 +7,7 @@
   margin: 100px 0 50px;
 }
 
-.headSlider span,
-.headSlider p {
-  color: var(--bg-black-100);
-  font-weight: 700;
-  font-size: 35px;
-}
-
-.headSlider p {
+.textSliderCardAdd {
   color: var(--black-color-800);
 }
 
@@ -37,11 +30,6 @@
 
 .imgCartGreen>button>svg {
   color: var(--black-color-800);
-}
-
-.imgCartGreen>button>svg:active {
-  fill: var(--bg-red-200);
-  color: var(--bg-red-200);
 }
 
 .colorChoose {
@@ -67,11 +55,6 @@
   font-weight: 700;
 }
 
-.textSlideAdd span {
-  color: var(--black-color-800);
-  font-weight: 600;
-}
-
 .btnPriceAdd {
   display: flex;
   align-items: center;
@@ -85,11 +68,6 @@
   border-radius: 9px;
   font-weight: 600;
   padding: 2px 13px;
-}
-
-.btnPriceAdd>div>span {
-  color: var(--black-color-800);
-  font-weight: 400;
 }
 
 .images {

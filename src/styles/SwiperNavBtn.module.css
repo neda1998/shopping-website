@@ -20,3 +20,9 @@
 .swiperNavBtns .nextBtn:hover {
     border: 2px solid var(--border-gray-200);
 }
+
+@media screen and (max-width:640px) {
+    .swiperNavBtns {
+        margin: 9px 0;
+    }
+}

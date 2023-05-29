@@ -13,12 +13,11 @@ import SliderShow from "./SliderShow";
 
 const SliderCart = () => {
   return (
-    <div className="lg:px
-    l-20 pl-10">
+    <div className="">
       <div className={`${style.headSlider}`}>
         <div>
-          <span>Discover more.</span>
-          <p>Good things are waiting for you</p>
+          <h1>Discover more.</h1>
+          <h1 className={style.textSlidercartHead}>Good things are waiting for you</h1>
         </div>
       </div>
       <div>

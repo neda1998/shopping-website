@@ -8,11 +8,11 @@ import flowerPlate from "../../assets/images/plate.jpg";
 
 function BlogArticle() {
   return (
-    <div className={`sm:mx-[44px] ${style.BlogArticle}`}>
-      <div className={`sm:px-14 px-8 ${style.posts}`}>
+    <div className={`${style.BlogArticle}`}>
+      <div className={`${style.posts}`}>
         <div>
-          <span className="text-[19px] sm:text-[26px] md:text-[40px]">The latest news.</span>
-          <p className="text-[19px] sm:text-[23px] md:text-[40px]">From the Ciseco blog</p>
+          <span>The latest news.</span>
+          <p>From the Ciseco blog</p>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
           <Post />
@@ -21,9 +21,9 @@ function BlogArticle() {
             <BlogNews imgBlog={orangeFlower} />
             <BlogNews imgBlog={flowerPlate} />
           </div>
-          <div className={style.blogBtn}>
-            <button>Show all blog articles</button>
-          </div>
+        </div>
+        <div className={style.blogBtn}>
+          <button>Show all blog articles</button>
         </div>
       </div>
     </div>

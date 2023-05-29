@@ -5,7 +5,7 @@
 
 .headSliderChoose {
   color: var(--bg-black-100);
-  margin: 40px 0;
+  margin: 83px 0 48px;
   font-weight: 700;
   font-size: 38px;
 }
@@ -16,6 +16,9 @@
   background-color: var(--bg-blue-200);
   border-radius: 15px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product img {
@@ -29,7 +32,7 @@
   justify-content: space-between;
 }
 
-.textSliderImage > div:first-child {
+.textSliderImage>div:first-child {
   display: flex;
   flex-direction: column;
 }
@@ -69,23 +72,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0;
-  height: 53vh;
+  min-height: 405px;
 }
 
-.moreItems > div {
+.moreItems>div {
   display: flex;
   align-items: center;
 }
 
-.moreItems > div span {
+.moreItems>div span {
   color: var(--bg-black-100);
   font-size: 20px;
   font-weight: 600;
   margin: 0 6px 3px 0;
 }
 
-.moreItems > div p {
+.moreItems>div p {
   color: var();
   font-weight: 500;
 }

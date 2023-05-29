@@ -4,9 +4,9 @@ import style from "../../styles/Slide.module.css";
 function SlidesHead({ img }) {
   return (
     <div className='grid grid-cols-2'>
-      <div className={` ${style.textSlide}`}>
-        <p>In this season, find the best ⭐</p>
-        <h1 className="md:text-5xl sm:text-xl md:max-w-lg">Exclusive collection for everyone</h1>
+      <div className={`${style.textSlide}`}>
+        <h1>In this season, find the best ⭐</h1>
+        <h6 className="md:max-w-lg mb-10">Exclusive collection for everyone</h6>
         <button className={style.btnSlide}>
           <span>Explore now</span>
           <svg

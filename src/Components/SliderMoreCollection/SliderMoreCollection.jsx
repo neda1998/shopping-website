@@ -9,19 +9,19 @@ import travel from "../../assets/images/travel.png";
 import pet from "../../assets/images/pet.png";
 import sport from "../../assets/images/sport.png";
 import pharmacy from "../../assets/images/pharmacy.png";
+import SliderCollection from "./SliderCollection";
 
-function SliderMoreCollection() {
+function SliderMoreCollection({ img }) {
   return (
     <>
       <div className={`${style.sliderMore}`}>
         <div>
-          <p>Shop by department</p>
+          <h1>Shop by department</h1>
         </div>
       </div>
-      <Swiper 
-      className={style.swiperSlideShow}
+      <Swiper
+        className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
-        slidesPerView={4}
         spaceBetween={20}
         breakpoints={{
           290: {
@@ -37,55 +37,21 @@ function SliderMoreCollection() {
       >
         <SwiperNavButtons />
         <SwiperSlide>
-          <div className={style.travel}>
-            <div>
-              <div>
-                <img
-                  src={travel}
-                  alt="travel"
-                  className={style.imgCollection}
-                />
-              </div>
-            </div>
-            <p>Travel Kits</p>
-            <span>20+ categories</span>
-          </div>
+          <SliderCollection img={travel} customBack="var(--bg-blue-800)"/>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={style.pharmacy}>
-            <div>
-              <img
-                src={pharmacy}
-                alt="pharmacy"
-                className={style.imgCollection}
-              />
-            </div>
-            <p>Travel Kits</p>
-            <span>20+ categories</span>
-          </div>
+          <SliderCollection img={pharmacy} customBack="var(--bg-blue-300)"/>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={style.sport}>
-            <div>
-              <img src={sport} alt="sport" className={style.imgCollection} />
-            </div>
-            <p>Travel Kits</p>
-            <span>20+ categories</span>
-          </div>
+          <SliderCollection img={sport} customBack="var(--bg-box-slider2)"/>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={style.pet}>
-            <div>
-              <img src={pet} alt="pet" className={style.imgCollection} />
-            </div>
-            <p>Travel Kits</p>
-            <span>20+ categories</span>
-          </div>
+          <SliderCollection img={pet} customBack="var(--bg-box-slider"/>
         </SwiperSlide>
         <SwiperSlide>
-          <div className={style.moreCollection}>
+          <div className={`${style.moreCollection}`}>
             <div>
-              <span>More collection</span>
+              <p>More collection</p>
               <button>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +59,7 @@ function SliderMoreCollection() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-6 h-6"
+                  className="w-5 h-5"
                 >
                   <path
                     strokeLinecap="round"
@@ -103,7 +69,7 @@ function SliderMoreCollection() {
                 </svg>
               </button>
             </div>
-            <p>Show me more</p>
+            <span>Show me more</span>
           </div>
         </SwiperSlide>
       </Swiper>

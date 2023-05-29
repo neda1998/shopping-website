@@ -66,6 +66,7 @@ ul {
   --bg-yellow-stars: #eab308;
   --background-color: #fff;
   --bg-cover: #000000ad;
+  --color-theme-dark:#d1d5da;
   --bg-Accordion:#F3F7FA;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
@@ -106,9 +107,18 @@ ul {
   background-color: rgb(216, 197, 197);
 }
 
-body.dark {
-  background-color: #666;
-  color: #fff;
+body.dark, body.dark header, body.dark a {
+  background-color: var(--bg-black-100);
+  color: var(--color-theme-dark);
+}
+
+body.dark svg{
+  color: var(--color-theme-dark)
+}
+
+body.dark span, body.dark p {
+  color: var(--bg-white);
+  font-weight: 600;
 }
 
 body.light {}

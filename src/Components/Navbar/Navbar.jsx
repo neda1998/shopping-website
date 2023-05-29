@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <AppContext.Consumer>
       {({headerContent}) => (
-        <header className={style.header}>
+        <header className={`${style.header}`}>
         <div className={style.headItem}>
           <nav className={style.navbar}>
             {/* menu mobile */}
@@ -27,7 +27,7 @@ function Navbar() {
               {nav ? <AiOutlineClose size={22} /> : <HiOutlineMenuAlt4 size={22} />}
             </div>
             {/* menu mobile */}
-            <Logo customDisplay="navLogo" />
+            <Logo customWidth="162px"/>
             <div>
               <ul className={`${style.navItem} ${style.menuHeader} md:flex`}>
                 <li>

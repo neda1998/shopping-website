@@ -14,7 +14,7 @@ function TabItem({numberProduct, title, imgLines, imgProduct}) {
       <div className={style.tabsTitle}>
         <div>
           <p>Manufacturar</p>
-          <h3>{title}</h3>
+          <h3 className="text-[17px] md:text-[23px]">{title}</h3>
           <div className={style.tabsBody}>
             <span>See Collection</span>
             <button>

@@ -11,14 +11,9 @@
   margin: 100px 0 50px;
 }
 
-.headSlider span,
-.headSlider p {
-  color: var(--bg-black-100);
-  font-weight: 700;
-}
-
-.headSlider p {
+.textSlidercartHead {
   color: var(--black-color-800);
+  margin-left: 6px;
 }
 
 .headSlider>div {
@@ -30,11 +25,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.cart>div>p {
-  color: var(--black-color-700);
-  font-weight: 500;
 }
 
 .cart>div>h3 {
