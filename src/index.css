@@ -121,7 +121,9 @@ body.dark span, body.dark p {
   font-weight: 600;
 }
 
-body.light {}
+body.dark .userBox {
+  background-color: var(--bg-black-100);
+}
 
 .image-container {
   background-repeat: no-repeat;

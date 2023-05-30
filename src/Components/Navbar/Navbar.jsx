@@ -19,17 +19,17 @@ function Navbar() {
   return (
     <AppContext.Consumer>
       {({headerContent}) => (
-        <header className={`md:px-20 py-5 px-10 ${style.header}`}>
+        <header className={`md:px-17 py-5 px-10 ${style.header}`}>
         <div className={style.headItem}>
           <nav className={style.navbar}>
             {/* menu mobile */}
-            <div onClick={handleNav} className={`md:hidden ${style.toggleMenuMobile}`}>
+            <div onClick={handleNav} className={`lg:hidden ${style.toggleMenuMobile}`}>
               {nav ? <AiOutlineClose size={22} /> : <HiOutlineMenuAlt4 size={22} />}
             </div>
             {/* menu mobile */}
-            <Logo customWidth="162px" customMargin="50px"/>
+            <Logo customWidth="142px"/>
             <div>
-              <ul className={`${style.navItem} ${style.menuHeader} md:flex`}>
+              <ul className={`${style.navItem} ${style.menuHeader} hidden lg:flex`}>
                 <li>
                   <Link className={style.link} to="/men">
                     Men

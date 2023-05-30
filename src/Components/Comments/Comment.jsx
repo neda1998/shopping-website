@@ -6,7 +6,7 @@ function Comment() {
   return (
     <div className={style.comment}>
       <div>
-        <p className="md:max-w-[600px] md:mt-0 mt-[65px]">
+        <p className="max-w-[400px] md:mt-0 mt-[65px]">
           Great quality products, affordable prices, fast and friendly delivery.
           I very recommend.
         </p>

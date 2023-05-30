@@ -6,7 +6,7 @@ import SLiderChooseProduct from "../Components/SliderChooseProduct/SliderChooseP
 function Women() {
   return (
     <div>
-      <div className={style.MenPage}>
+      <div className={`md:px-20 px-10 ${style.MenPage}`}>
         <h1>Women Collection</h1>
         <p>We not only help you design exceptional products, but also make it easy for you to share your designs with more like-minded people.</p>
       </div>

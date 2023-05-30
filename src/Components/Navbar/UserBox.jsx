@@ -1,7 +1,7 @@
 import { React } from 'react';
 import style from "../../styles/Navbar.module.css";
 import user from "../../assets/images/user.png";
-// import DarkTheme from '../Theme/DarkTheme';
+import Theme from '../Theme/Theme';
 
 function UserBox() {
     return (
@@ -88,8 +88,8 @@ function UserBox() {
                             />
                         </svg>
                     </button>
-                    <span>Dark Theme</span>
-                    {/* <DarkTheme /> */}
+                    <span className='mr-5'>Dark Theme</span>
+                    <Theme />
                 </div>
                 <div className={style.itemUser}>
                     <button>

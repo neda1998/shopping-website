@@ -102,7 +102,7 @@
   border-radius: 8px;
   border-bottom: 1px solid var(--border-gray-100);
   padding: 21px 90px;
-  margin-top: 61px;
+  margin-top: 57px;
   background-color: var(--bg-white);
   box-shadow: var(--box-shadow);
   display: none;
@@ -289,7 +289,7 @@
   width: 261px;
   position: absolute;
   right: 0;
-  margin-top: 61px;
+  margin-top: 57px;
 }
 
 .propUser {
@@ -367,7 +367,7 @@
   border-radius: 18px;
   border: 1px solid var(--border-gray-100);
   padding: 23px 21px;
-  margin-top: 61px;
+  margin-top: 57px;
   position: absolute;
   right: 0;
   width: 430px;
@@ -652,6 +652,10 @@ body.dark {
   top: 0;
   right: 0;
   z-index: 1;
+}
+
+body.dark .userBox {
+  background-color: var(--bg-black-100);
 }
 
 @media screen and (max-width:768px) {
