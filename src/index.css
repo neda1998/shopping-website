@@ -8,7 +8,6 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: var(--background-color);
   color: var(--text-color);
 }
 
@@ -64,7 +63,6 @@ ul {
   --bg-purple-100: #f3e8ff;
   --bg-purple-200: #7c21a8;
   --bg-yellow-stars: #eab308;
-  --background-color: #fff;
   --bg-cover: #000000ad;
   --color-theme-dark:#d1d5da;
   --bg-Accordion:#F3F7FA;
@@ -110,6 +108,10 @@ ul {
 body.dark, body.dark header, body.dark a {
   background-color: var(--bg-black-100);
   color: var(--color-theme-dark);
+}
+
+body.dark .userBox {
+  background-color: var(--bg-black-100);
 }
 
 body.dark svg{
