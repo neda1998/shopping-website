@@ -14,11 +14,11 @@ import imgBag from "../../assets/images/imgBag.png";
 
 function SliderCartAdd() {
   return (
-    <div className="mb-24">
+    <div className="mb-24 md:px-20 px-10">
       <div className={`${style.headSlider}`}>
-        <div>
-          <h1>New Arrivals.</h1>
-          <h1 className={style.textSliderCardAdd}>Rey backpacks & bags</h1>
+        <div className="sm:flex items-center flex-none">
+          <h1 className="truncate break-words">New Arrivals.</h1>
+          <h1 className={`truncate break-words ${style.textSliderCardAdd}`}>Rey backpacks & bags</h1>
         </div>
       </div>
       <Swiper

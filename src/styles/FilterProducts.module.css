@@ -277,3 +277,15 @@
 }
 
 /* change bg button */
+
+@media screen and (max-width:1023px) {
+  .filter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnCategory {
+    width: 100%;
+    margin: 37px 0 5px;
+  }
+}

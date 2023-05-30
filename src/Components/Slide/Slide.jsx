@@ -10,10 +10,9 @@ import Slides from "./SlidesHead";
 
 const Slide = () => {
   return (
-    <div className={style.slideShow}>
+    <div className={`md:px-20 px-10 ${style.slideShow}`}>
       <div className={style.slideSwiper}>
         <Swiper
-          className={style.swiperSlideShow}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{

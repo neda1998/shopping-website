@@ -3,7 +3,7 @@ import style from "../../styles/Slide.module.css";
 
 function SlidesHead({ img }) {
   return (
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center md: mt-20 md:mt-0'>
       <div className={`${style.textSlide}`}>
         <h1>In this season, find the best ⭐</h1>
         <h6 className="md:max-w-lg mb-10">Exclusive collection for everyone</h6>
@@ -25,7 +25,7 @@ function SlidesHead({ img }) {
           </svg>
         </button>
       </div>
-      <div className="">
+      <div className="flex md:justify-end justify-center">
         <img className={style.imgSlide} src={img} alt="img" />
       </div>
     </div>

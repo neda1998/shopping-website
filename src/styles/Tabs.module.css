@@ -1,6 +1,7 @@
 .tab {
   background-color: var(--bg-blue-500);
   border-radius: 25px;
+  padding: 0 25px;
 }
 
 .tab h1 {
@@ -86,6 +87,6 @@
   padding-right: 10px;
 }
 
-.tabLineImg img {
+/* .tabLineImg img {
   max-width: 190px;
-}
+} */

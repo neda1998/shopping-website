@@ -7,7 +7,7 @@ function Post() {
   return (
     <div className={style.post}>
       <img src={book} alt="book" />
-      <span className={style.text}>Non Sodales Neque Sodales Ut Etiam Sit Amet Nisl Purus</span>
+      <h1 className={style.text}>Non Sodales Neque Sodales Ut Etiam Sit Amet Nisl Purus</h1>
       <p className={style.paraBlog}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
         dolorem...

@@ -1,5 +1,4 @@
 .swiperNavBtns {
-    margin: 0 77px 50px 0;
     position: absolute;
     right: 0;
     top: 0;
@@ -11,9 +10,9 @@
     color: var(--black-color-800);
     font-size: 32px;
     transition: all 0.3s ease-in-out;
-    margin-right: 15px;
     border: 2px solid var(--bg-white);
     padding: 0 9px;
+    margin: 3px 15px 0 0;
 }
 
 .swiperNavBtns .prevBtn:hover,
@@ -24,5 +23,11 @@
 @media screen and (max-width:640px) {
     .swiperNavBtns {
         margin: 9px 0;
+    }
+
+    .swiperNavBtns .prevBtn,
+    .swiperNavBtns .nextBtn {
+        margin-right: 0;
+        font-size: 30px;
     }
 }

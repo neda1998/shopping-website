@@ -11,11 +11,6 @@
   color: var(--black-color-800);
 }
 
-.headSlider>div {
-  display: flex;
-  align-items: center;
-}
-
 .imgCartGreen {
   background-color: var(--bg-blue-400);
   border-radius: 24px;

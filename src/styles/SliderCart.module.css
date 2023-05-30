@@ -16,11 +16,6 @@
   margin-left: 6px;
 }
 
-.headSlider>div {
-  display: flex;
-  align-items: center;
-}
-
 .cart {
   display: flex;
   flex-direction: row;

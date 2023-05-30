@@ -9,15 +9,11 @@
 }
 
 .register>div:first-child>h1 {
-  font-weight: 700;
   max-width: 375px;
-  color: var(--bg-black-100);
   line-height: 1.2;
 }
 
 .register>div:first-child>p {
-  color: var(--black-color-800);
-  font-weight: 500;
   margin: 20px 0 30px;
   max-width: 485px;
 }
@@ -34,8 +30,6 @@
 
 .number>div>span {
   color: var(--bg-black-100);
-  font-weight: 600;
-  font-size: 17px;
 }
 
 .number>div>button {

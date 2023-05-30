@@ -5,7 +5,7 @@ import kids from "../../assets/images/kids.png";
 
 function SectionKids() {
   return (
-    <div>
+    <div className="md:px-20 px-10">
       <div className={`grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-24 ${style.sectionKids}`}>
         <div className="order-2 lg:order-1">
           <img src={kids} alt="kids" />

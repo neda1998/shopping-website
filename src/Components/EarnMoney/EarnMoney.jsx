@@ -5,8 +5,8 @@ import money from "../../assets/images/money.png";
 
 function EarnMoney() {
   return (
-    <div className="lg:py-10">
-      <div className={`grid lg:grid-cols-2 place-items-center grid-cols-1 gap-12 ${style.earnMoney}`}>
+    <div className="lg:py-10 md:px-20 px-10">
+      <div className={`grid lg:grid-cols-2 lg:place-items-start grid-cols-1 gap-12 ${style.earnMoney}`}>
         <div className={style.textMoney}>
           <Logo customWidth="120px" />
           <h1>Earn free money with Ciseco</h1>
@@ -17,7 +17,7 @@ function EarnMoney() {
           </div>
         </div>
         <div>
-          <img src={money} alt="money" className={`sm:w-[500px] lg:w-[600px] ${style.imgMoney}`} />
+          <img src={money} alt="money" className={`sm:w-[450px] lg:w-[540px] ${style.imgMoney}`} />
         </div>
       </div>
     </div>

@@ -1,23 +1,13 @@
 .BlogArticle {
   background-color: var(--bg-blue-500);
   border-radius: 25px;
-  padding: 70px 0;
+  padding: 70px 10px;
 }
 
 .posts>div:first-child {
   display: flex;
   align-items: center;
   margin-bottom: 52px;
-}
-
-.posts>div:first-child span,
-.posts>div:first-child p {
-  color: var(--bg-black-100);
-  font-weight: 600;
-}
-
-.posts>div:first-child p {
-  color: var(--black-color-700);
 }
 
 .post {
@@ -33,9 +23,6 @@
 }
 
 .text {
-  color: var(--bg-black-100);
-  font-size: 24px;
-  font-weight: 700;
   max-width: 400px;
   margin-top: 28px;
   transition: color 0.3s ease-in-out;
@@ -46,8 +33,6 @@
 }
 
 .paraBlog {
-  color: var(--black-color-800);
-  font-weight: 500;
   margin: 20px 0;
 }
 

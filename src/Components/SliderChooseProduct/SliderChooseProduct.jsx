@@ -21,8 +21,8 @@ import SliderProduct from "./SliderProduct";
 
 function SliderChooseProduct() {
   return (
-    <div>
-      <div className={style.headSliderChoose}>
+    <div className="md:px-20 px-10">
+      <div className={`${style.headSliderChoose}`}>
         <h1>Choosen by our experts</h1>
       </div>
       <Swiper

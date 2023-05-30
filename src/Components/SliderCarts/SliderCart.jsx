@@ -13,11 +13,11 @@ import SliderShow from "./SliderShow";
 
 const SliderCart = () => {
   return (
-    <div className="">
+    <div className="md:px-20 px-10">
       <div className={`${style.headSlider}`}>
-        <div>
+        <div className="md:flex items-center flex-none">
           <h1>Discover more.</h1>
-          <h1 className={style.textSlidercartHead}>Good things are waiting for you</h1>
+          <h1 className={`truncate ${style.textSlidercartHead}`}>Good things are waiting for you</h1>
         </div>
       </div>
       <div>

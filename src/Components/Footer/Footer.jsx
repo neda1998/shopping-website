@@ -11,7 +11,7 @@ function Footer() {
   return (
     <AppContext.Consumer>
       {({footerContent}) => (
-        <div className={style.footer}>
+        <div className={`md:px-20 px-10 ${style.footer}`}>
         <div className="lg:hidden flex items-center sm:justify-start justify-between mb-10">
             <Logo />
            <div className="flex items-center sm:ml-10">

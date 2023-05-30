@@ -23,7 +23,7 @@ function TabComp() {
 
   return (
     <div className={style.headTabs}>
-      <div className="bloc-tabs sm:w-[618px] md:w-[750px] w-[350px]">
+      <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
@@ -266,7 +266,7 @@ function TabComp() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="192"
               title="backpack"
@@ -308,7 +308,7 @@ function TabComp() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="392"
               title="backpack"
@@ -350,7 +350,7 @@ function TabComp() {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="210"
               title="backpack"
@@ -392,7 +392,7 @@ function TabComp() {
         <div
           className={toggleState === 4 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="92"
               title="backpack"
@@ -434,7 +434,7 @@ function TabComp() {
         <div
           className={toggleState === 5 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="100"
               title="backpack"
@@ -476,7 +476,7 @@ function TabComp() {
         <div
           className={toggleState === 6 ? "content  active-content" : "content"}
         >
-          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-8 gap-4`}>
+          <div className={`grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-6 gap-4`}>
             <TabItem
               numberProduct="530"
               title="backpack"

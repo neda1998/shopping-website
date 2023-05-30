@@ -7,7 +7,7 @@ function Register() {
     <div className={`md:px-20 px-10`}>
       <div className={` grid lg:grid-cols-2 grid-cols-1 gap-24 ${style.register}`}>
         <div>
-          <h1 className="text-[25px] sm:text-[35px] md:text-[40px]">Don't miss out on special offers</h1>
+          <h1>Don't miss out on special offers</h1>
           <p>
             Register to receive news about the latest, savings combos, discount
             codes...

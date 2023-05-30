@@ -14,9 +14,9 @@
 }
 
 .tabs {
-  padding: 10px 8px;
+  padding: 0 5px;
   text-align: center;
-  width: 12%;
+  width: 31px;
   cursor: pointer;
   box-sizing: content-box;
   position: relative;
@@ -71,9 +71,9 @@
 
 @media screen and (max-width:644px) {
   .active-tabs::before {
-    width: 68px;
+    width: 57px;
     border-radius: 25px;
-    height: 39px;
+    height: 32px;
   }
 
   .tabs>div {

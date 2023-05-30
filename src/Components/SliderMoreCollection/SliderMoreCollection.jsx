@@ -22,6 +22,7 @@ function SliderMoreCollection({ img }) {
       <Swiper
         className={style.swiperSlideShow}
         modules={[Navigation, Pagination, A11y]}
+        slidesPerView={4}
         spaceBetween={20}
         breakpoints={{
           290: {

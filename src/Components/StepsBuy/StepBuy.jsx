@@ -8,7 +8,7 @@ import price from "../../assets/images/price.png";
 
 function StepBuy() {
   return (
-    <div className={`${style.stepBuy}`}>
+    <div className={`md:px-25 px-10 ${style.stepBuy}`}>
       <div
         className={`grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 ${style.StepBuy}`}
       >

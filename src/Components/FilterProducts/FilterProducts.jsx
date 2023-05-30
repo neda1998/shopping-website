@@ -32,7 +32,7 @@ function FilterProducts() {
     setData(result);
   };
   return (
-    <div className={`${style.filterProducts}`}>
+    <div className={`md:px-20 px-10 ${style.filterProducts}`}>
       <h1>What's trending now</h1>
       <p>Discover the most trending products in Ciseco.</p>
       <div className={style.filter}>
@@ -42,7 +42,7 @@ function FilterProducts() {
               setData(DataProducts);
               setChange(!changeBgBtn);
             }}
-            className={`${changeBgBtn} ?  ${style.bgActive} : ""`}
+            className={`${changeBgBtn} ? ${style.bgActive} : ""`}
           >
             All Items
           </button>
