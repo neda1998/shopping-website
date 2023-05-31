@@ -6,7 +6,6 @@
 .headSliderChoose {
   color: var(--bg-black-100);
   margin: 83px 0 48px;
-  font-weight: 700;
   font-size: 38px;
 }
 
@@ -39,7 +38,6 @@
 
 .titleSlide {
   color: var(--bg-black-100);
-  font-weight: 700;
   margin: 10px 0;
   font-size: 20px;
 }
@@ -56,12 +54,10 @@
 
 .viewer span {
   color: var(--border-gray-300);
-  font-weight: 400;
 }
 
 .btnSliderGreen button {
   color: var(--bg-green-200);
-  font-weight: 600;
   border: 2px solid var(--bg-green-200);
   padding: 1px 12px;
   border-radius: 7px;
@@ -83,11 +79,9 @@
 .moreItems>div span {
   color: var(--bg-black-100);
   font-size: 20px;
-  font-weight: 600;
   margin: 0 6px 3px 0;
 }
 
 .moreItems>div p {
   color: var();
-  font-weight: 500;
 }

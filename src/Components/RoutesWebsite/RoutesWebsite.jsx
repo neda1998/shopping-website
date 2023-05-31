@@ -4,8 +4,6 @@ import Men from "../../pages/Men";
 import Women from "../../pages/Women";
 import Beauty from "../../pages/Beauty";
 import Sport from "../../pages/Sport";
-import Template from "../../pages/Template";
-import Explore from "../../pages/Explore";
 import Product from "../../pages/Product";
 
 function RoutesWebsite() {
@@ -17,8 +15,6 @@ function RoutesWebsite() {
         <Route path="women" element={<Women />} />
         <Route path="beauty" element={<Beauty />} />
         <Route path="sport" element={<Sport />} />
-        <Route path="template" element={<Template />} />
-        <Route path="explore" element={<Explore />} />
         <Route path="product" element={<Product />} />
       </Routes>
     </>

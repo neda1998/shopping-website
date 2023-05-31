@@ -37,7 +37,6 @@
 .navItem>li {
   padding: 0 10px;
   font-size: 15px;
-  font-weight: 500;
 }
 
 .link {
@@ -87,7 +86,6 @@
   color: var(--bg-white);
   justify-content: center;
   align-items: center;
-  font-weight: 500;
   font-size: 10px;
 }
 
@@ -127,7 +125,6 @@
 
 .itemListHome span {
   color: var(--bg-white);
-  font-weight: 500;
   background-color: var(--bg-red-100);
   border-radius: 4px;
   padding: 1px 6px;
@@ -136,13 +133,11 @@
 
 .itemListHome p {
   color: var(--black-color-500);
-  font-weight: 700;
   margin-bottom: 20px;
 }
 
 .homeNav {
   color: var(--black-color-500);
-  font-weight: 700;
 }
 
 .LinkNav {
@@ -192,7 +187,6 @@
 }
 
 .textOff {
-  font-weight: bold;
   font-size: 23px;
   margin: 20px 0 40px;
 }
@@ -259,7 +253,6 @@
   width: 100%;
   padding-left: 8px;
   font-size: 17px;
-  font-weight: 400;
 }
 
 .formNav {
@@ -300,14 +293,12 @@
 
 .propUser p {
   color: var(--black-color-300);
-  font-weight: 700;
   font-size: 17px;
 }
 
 .propUser span {
   color: var(--black-color-500);
   font-size: 13px;
-  font-weight: 400;
 }
 
 .userImg {
@@ -345,7 +336,6 @@
 .itemUser span,
 .itemUser svg {
   color: var(--black-color-900);
-  font-weight: 500;
 }
 
 .darkModeBox {
@@ -359,7 +349,6 @@
 
 .shopText {
   color: var(--bg-black-100);
-  font-weight: 500;
   font-size: 20px;
 }
 
@@ -404,7 +393,6 @@
 
 .textImgShop>p {
   color: var(--bg-black-100);
-  font-weight: 500;
   font-size: 17px;
   margin-bottom: 5px;
 }
@@ -412,7 +400,6 @@
 .textImgShop>span,
 .textImgShop>h6 {
   color: var(--black-color-800);
-  font-weight: 400;
 }
 
 .textImgShop>h6 {
@@ -432,13 +419,10 @@
   border: 2px solid var(--bg-green-200);
   border-radius: 10px;
   padding: 1px 10px;
-  font-weight: 500;
 }
 
 .btnPriceShop>div>p {
   color: var(--bg-blue-900);
-  font-weight: 400;
-  font-weight: 500;
 }
 
 .textCheckout {
@@ -455,12 +439,10 @@
 .textCheckout>div>p,
 .textCheckout>p {
   color: var(--bg-black-300);
-  font-weight: 500;
 }
 
 .textCheckout>div>span {
   color: var(--black-color-800);
-  font-weight: 400;
 }
 
 .btnShopping {
@@ -474,7 +456,6 @@
 .btnShopping>button {
   border-radius: 27px;
   padding: 14px 0px;
-  font-weight: 500;
   width: 200px;
 }
 
@@ -528,7 +509,6 @@ body.dark {
 
 .textMenu {
   color: var(--black-color-600);
-  font-weight: 600;
   margin: 30px 0;
 }
 
@@ -580,7 +560,6 @@ body.dark {
 .inputMenuMobile input {
   background-color: transparent;
   color: var(--black-color-800);
-  font-weight: 500;
   margin-left: 9px;
   height: 43px;
 }
@@ -600,7 +579,6 @@ body.dark {
 
 .itemsMenu p {
   margin-bottom: 20px;
-  font-weight: 500;
 }
 
 .dropMenu {
@@ -612,7 +590,6 @@ body.dark {
 
 .dropMenu span {
   color: var(--bg-black-100);
-  font-weight: 600;
 }
 
 .dropMenu svg {
@@ -621,7 +598,6 @@ body.dark {
 
 .btnMenuMobile button {
   color: var(--bg-white);
-  font-weight: 600;
   font-size: 18px;
   width: 220px;
   padding: 10px 0;
@@ -641,7 +617,6 @@ body.dark {
 .dropMenuMobile {
   margin-bottom: 20px;
   color: var(--black-color-800);
-  font-weight: 500;
 }
 
 .coverPage {

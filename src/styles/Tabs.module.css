@@ -47,7 +47,6 @@
 }
 
 .tabProduct span {
-  font-weight: 500;
   font-size: 13px;
 }
 
@@ -65,8 +64,6 @@
 
 .tabsTitle>div:first-child h3 {
   color: var(--bg-black-100);
-  font-weight: 700;
-  /* font-size: 17px; */
   margin-bottom: 123px;
   white-space: nowrap;
 }
@@ -83,10 +80,5 @@
 }
 
 .tabsBody span {
-  font-weight: 600;
   padding-right: 10px;
 }
-
-/* .tabLineImg img {
-  max-width: 190px;
-} */

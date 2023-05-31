@@ -3,6 +3,7 @@ import SidebarProduct from './SidebarProduct';
 import style from "../../styles/Product.module.css";
 import Accordions from '../Accordion/Accordions';
 import ProductDetail from '../ProductDetail/ProductDetail';
+import Reviews from '../Review/Reviews';
 
 function PropertyProducts() {
     return (
@@ -45,9 +46,8 @@ function PropertyProducts() {
                 </div>
                 <Accordions />
                 <ProductDetail />
-                <div>
-                    <SidebarProduct />
-                </div>
+                <SidebarProduct />
+                <Reviews />
             </div>
         </div>
     )

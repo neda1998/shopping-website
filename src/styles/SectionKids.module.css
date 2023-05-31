@@ -13,7 +13,6 @@
 }
 
 .sectionKids > div > h1 {
-  font-weight: 700;
   color: var(--bg-black-100);
   margin: 30px 0 20px;
   max-width: 320px;
@@ -22,13 +21,11 @@
 
 .sectionKids > div > p {
   color: var(--black-color-800);
-  font-weight: 500;
   max-width: 415px;
 }
 
 .sectionKids > div > button {
   color: var(--bg-white);
-  font-weight: 500;
   background-color: var(--bg-black-100);
   width: 160px;
   padding: 14px 0;

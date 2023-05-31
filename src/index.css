@@ -11,6 +11,10 @@ body {
   color: var(--text-color);
 }
 
+html, body {
+  font-family: 'Punizione', sans-serif;
+}                                             
+
 button {
   outline: none;
   background-color: transparent;
@@ -105,7 +109,7 @@ ul {
   background-color: rgb(216, 197, 197);
 }
 
-body.dark, body.dark header, body.dark a {
+body.dark, body.dark a {
   background-color: var(--bg-black-100);
   color: var(--color-theme-dark);
 }
@@ -120,39 +124,18 @@ body.dark svg{
 
 body.dark span, body.dark p {
   color: var(--bg-white);
-  font-weight: 600;
-}
-
-body.dark .userBox {
-  background-color: var(--bg-black-100);
-}
-
-.image-container {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-body.dark .image-container{
-  background-image: url(./assets/svg/darkLogo.svg);
-}
-
-body.light .image-container{
-  background-image: url(./assets/svg/logo.svg);
 }
 
 h1 {
   color: var(--bg-black-100);
-  font-weight: 700;
 }
 
 p {
   color: var(--black-color-700);
-  font-weight: 500;
 }
 
 span {
   color: var(--black-color-800);
-  font-weight: 400;
 }
 
 @media screen and (max-width:640px) {

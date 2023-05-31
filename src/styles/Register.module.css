@@ -37,7 +37,6 @@
   margin-right: 15px;
   width: 36px;
   height: 24px;
-  font-weight: 500;
 }
 
 .number>div:first-child>button {
@@ -64,7 +63,6 @@
 
 .inputRegister input {
   color: var(--black-color-700);
-  font-weight: 400;
   outline: none;
   border: 2px solid var(--border-gray-100);
   width: 100%;

@@ -47,7 +47,6 @@
 
 .textSlideAdd p {
   color: var(--bg-black-100);
-  font-weight: 700;
 }
 
 .btnPriceAdd {
@@ -61,7 +60,6 @@
   background-color: var(--bg-white);
   color: var(--bg-green-200);
   border-radius: 9px;
-  font-weight: 600;
   padding: 2px 13px;
 }
 

@@ -65,7 +65,6 @@
 }
 
 .comment > div:first-child h5 {
-  font-weight: 600;
   color: var(--bg-black-100);
   margin: 25px 0 15px;
   font-size: 27px;

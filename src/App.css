@@ -28,7 +28,6 @@
 
 .tabs>div {
   color: var(--black-color-800);
-  font-weight: 500;
 }
 
 .tabs>div button {

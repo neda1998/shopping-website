@@ -1,16 +1,13 @@
 import React from "react";
 import style from "../../styles/SliderChooseProduct.module.css";
-import { Link } from "react-router-dom";
 
 function SliderProduct({ imgMain, imgHead, imgBack, imgBody }) {
   return (
     <div>
       <div className={style.chooseProduct}>
-        <Link to="/product">
         <div className={style.product}>
           <img src={imgMain} alt="clothes" />
         </div>
-        </Link>
         <div className="grid grid-cols-3 gap-2.5">
           <div className={style.imgDetail}>
             <img src={imgHead} alt="img" />

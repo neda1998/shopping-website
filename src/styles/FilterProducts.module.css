@@ -4,7 +4,6 @@
 
 .filterProducts h1 {
   color: var(--bg-black-100);
-  font-weight: 700;
   font-size: 35px;
 }
 
@@ -17,14 +16,12 @@
 
 .filterProducts p {
   color: var(--black-color-800);
-  font-weight: 500;
   margin: 20px 0 45px;
   font-size: 18px;
 }
 
 .btnSelect {
   color: var(--black-color-700);
-  font-weight: 600;
   font-size: 18px;
   margin-right: 10px;
   width: 100px;
@@ -45,7 +42,6 @@
   background-color: var(--bg-black-100);
   border-radius: 25px;
   color: var(--bg-white);
-  font-weight: 600;
   width: 169px;
   padding: 11px 0;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
@@ -72,13 +68,11 @@
 
 .textSlideAdd p {
   color: var(--bg-black-100);
-  font-weight: 700;
   margin: 0;
 }
 
 .textSlideAdd span {
   color: var(--black-color-800);
-  font-weight: 600;
 }
 
 .btnPriceAdd {
@@ -92,13 +86,11 @@
   background-color: var(--bg-white);
   color: var(--bg-green-200);
   border-radius: 9px;
-  font-weight: 600;
   padding: 2px 13px;
 }
 
 .btnPriceAdd>div>span {
   color: var(--black-color-800);
-  font-weight: 400;
 }
 
 .colorChoose {
@@ -164,7 +156,6 @@
 
 .itemsCategoryPro span {
   color: var(--black-color-600);
-  font-weight: 600;
 }
 
 .CategoryBox,
@@ -214,7 +205,6 @@
 
 .inputCategory {
   color: var(--black-color-700);
-  font-weight: 500;
   margin-left: 10px;
   font-size: 17px;
 }
@@ -241,7 +231,6 @@
   color: var(--black-color-600);
   background-color: var(--bg-white);
   border-radius: 20px;
-  font-weight: 600;
   border: 1px solid var(--border-gray-200);
   width: 80px;
   padding: 5px 0;
@@ -253,7 +242,6 @@
   border: none;
   opacity: 1;
   transition: all 0.3s ease-in-out;
-  font-weight: 700;
   padding-bottom: 7px;
 }
 
@@ -272,7 +260,6 @@
   padding: 7px 0;
   width: 120px;
   margin-right: 30px;
-  font-weight: 600;
   font-size: 18px;
 }
 

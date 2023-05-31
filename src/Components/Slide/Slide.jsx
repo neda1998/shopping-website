@@ -10,17 +10,14 @@ import Slides from "./SlidesHead";
 
 const Slide = () => {
   return (
-    <div className={`md:px-20 px-10 ${style.slideShow}`}>
+    <div className={`md:px-20 px-10 lg:h-[100vh] h-full ${style.slideShow}`}>
       <div className={style.slideSwiper}>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 5500000000,
+            delay: 5500,
             disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
