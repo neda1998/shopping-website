@@ -3,7 +3,7 @@ import SidebarProduct from './SidebarProduct';
 import style from "../../styles/Product.module.css";
 import Accordions from '../Accordion/Accordions';
 import ProductDetail from '../ProductDetail/ProductDetail';
-import Reviews from '../Review/Reviews';
+import Reviews from '../Review/ModalReviews';
 
 function PropertyProducts() {
     return (

@@ -19,9 +19,6 @@ function ProductDetail() {
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-4">
                 <BoxDetail />
-                {/* <BoxDetail customBackground="" />
-                <BoxDetail customBackground="" />
-                <BoxDetail customBackground="" /> */}
             </div>
         </div>
     )

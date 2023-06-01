@@ -29,7 +29,8 @@
 }
 
 .properties {
-    justify-content: space-between;margin-bottom: 40px;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .property h5,
@@ -67,7 +68,7 @@
     background-color: var(--bg-blue-200);
 }
 
-.sharePost p{
+.sharePost p {
     margin-left: 11px;
 }
 
@@ -89,4 +90,51 @@
 
 .paraDetail {
     margin-bottom: 20px;
+}
+
+.imgReview {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.userProp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contentUser {
+    max-width: 528px;
+    display: flex;
+    color: var(--black-color-700);
+}
+
+.btnReview {
+    color: var(--black-color-700);
+    font-weight: 700;
+    width: 229px;
+    padding: 10px 0;
+    border: 1px solid var(--border-gray-300);
+    border-radius: 30px;
+}
+
+.userProp>div {
+    display: flex;
+    align-items: center;
+}
+
+.userProp>div>button {
+    color: var(--bg-yellow-stars);
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+
+.user h6 {
+    font-weight: bold;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "../../styles/Product.module.css";
 
-function BoxDetail({ customBackground }) {
+function BoxDetail() {
     const icons = [{
         id: 1, icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 14H13C14.1 14 15 13.1 15 12V2H6C4.5 2 3.19001 2.82999 2.51001 4.04999" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>

@@ -60,6 +60,12 @@
   margin-bottom: 15px;
 }
 
+.images {
+  width: 284px;
+  height: 216px;
+  object-fit: cover;
+}
+
 .textSlideAdd {
   display: flex;
   flex-direction: column;
@@ -69,10 +75,6 @@
 .textSlideAdd p {
   color: var(--bg-black-100);
   margin: 0;
-}
-
-.textSlideAdd span {
-  color: var(--black-color-800);
 }
 
 .btnPriceAdd {
@@ -87,10 +89,6 @@
   color: var(--bg-green-200);
   border-radius: 9px;
   padding: 2px 13px;
-}
-
-.btnPriceAdd>div>span {
-  color: var(--black-color-800);
 }
 
 .colorChoose {
@@ -152,10 +150,6 @@
 
 .itemsCategorySale {
   width: 113px;
-}
-
-.itemsCategoryPro span {
-  color: var(--black-color-600);
 }
 
 .CategoryBox,

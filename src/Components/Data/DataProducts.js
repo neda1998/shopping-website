@@ -1,20 +1,34 @@
-import image from "../../assets/images/client.png";
-
+import kidsToy from "../../assets/images/toy.png";
+import imgBlose from "../../assets/images/imgBlose.png";
+import carrier from "../../assets/images/carrier.png";
+import bag from "../../assets/images/bag.png";
+import beanie from "../../assets/images/beanie.png";
+import clothes from "../../assets/images/clothes.png";
+import diamond from "../../assets/images/Diamond.png";
+import styleWoman from "../../assets/images/styleWoman.png";
 
 const DataProducts = [
   {
     id: 1,
     title: "Rey Nylon Backpack",
     price: 74,
-    image: image,
+    image: kidsToy,
     category: "Kids",
     para: "Classic green",
+  },
+  {
+    id: 4,
+    title: "Waffle Knit style",
+    price: 132,
+    image: styleWoman,
+    category: "Women",
+    para: "New blue aqua",
   },
   {
     id: 3,
     title: "Waffle Knit Beanie",
     price: 132,
-    image: "../../assets/images/shirt.png",
+    image: imgBlose,
     category: "Men",
     para: "New blue aqua",
   },
@@ -22,7 +36,7 @@ const DataProducts = [
     id: 4,
     title: "Travel Pet Carrier",
     price: 28,
-    image: "../../assets/images/carrier.png",
+    image: carrier,
     category: "Women",
     para: "Dark pink 2023",
   },
@@ -30,7 +44,7 @@ const DataProducts = [
     id: 5,
     title: "Leather Gloves",
     price: 42,
-    image: "../../assets/images/petTote.png",
+    image: bag,
     category: "Women",
     para: "Perfect mint green",
   },
@@ -38,7 +52,7 @@ const DataProducts = [
     id: 6,
     title: "Hoodie Sweatshirt",
     price: 30,
-    image: "../../assets/images/imgJump.png",
+    image: beanie,
     category: "Kids",
     para: "New design 2023",
   },
@@ -46,7 +60,7 @@ const DataProducts = [
     id: 7,
     title: "Wool Cashmere Jacket",
     price: 12,
-    image: "../../assets/images/palto.png",
+    image: clothes,
     category: "Men",
     para: "Matte black",
   },
@@ -54,7 +68,7 @@ const DataProducts = [
     id: 8,
     title: "Ella Leather Tote",
     price: 145,
-    image: "../../assets/images/jewelryTwo.jpg",
+    image: diamond,
     category: "Jewels",
     para: "Cream pink",
   }
