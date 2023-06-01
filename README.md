@@ -1,6 +1,6 @@
 # Getting Started with Create React App
  ## Desktop
-![shopping-website-desktop-compressed](https://github.com/neda1998/shopping-website/blob/main/src/assets/images/result%20of%20project.png)
+![shopping-website-desktop-compressed](https://github.com/neda1998/shopping-website/blob/main/src/assets/images/result.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
