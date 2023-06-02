@@ -256,16 +256,15 @@
 }
 
 .formNav {
-  position: fixed;
+  position: absolute;
   border-radius: 8px;
   padding: 10px 0;
-  width: 54%;
+  width: 63%;
   display: flex;
-  left: 50%;
-  background: #fff;
-  margin: 8px -258px;
+  left: 21%;
+  background: var(--bg-white);
+  margin: 8px 0px;
   top: 0;
-  right: 50%;
   justify-content: space-between;
   align-items: center;
 }
@@ -637,7 +636,7 @@ body.dark .userBox {
 
   .menuHeader,
   .btnSearch {
-    display: none;
+    display: none !important;
   }
 }
 
