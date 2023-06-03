@@ -160,26 +160,44 @@
     align-items: center;
     border-bottom: 1px solid var(--border-gray-100);
     margin: 30px 0;
+    padding-bottom: 30px;
 }
 
 .modals {
     background-color: var(--bg-white);
     border-radius: 20px;
     padding: 13px;
-    position: absolute;
+    position: fixed;
+    border: 1px solid var(--border-gray-100);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+    width: 100%;
+    max-width: 64rem;
+    height: 100vh;
+}
+
+.bgDarkModal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    display: none;
+    background-color: var(--bg-cover);
+}
+
+.reviewTop {
+    overflow: hidden;
+    height: 100%;
 }
 
 .sortReview {
     border: 1px solid var(--border-gray-100);
-    padding: 5px 0;
-    width: 240px;
+    padding: 12px 0;
+    width: 246px;
     color: var(--black-color-500);
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;

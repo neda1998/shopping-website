@@ -484,7 +484,7 @@ function FilterProducts() {
         </div>
       )}
       {/* category */}
-      <div className="grid lg:grid-cols-4 lg:gap-12 md:grid-cols-2 md:gap-8 grid-cols-1">
+      <div className="grid lg:grid-cols-4 lg:gap-12 md:grid-cols-2 md:gap-8 gap-6 grid-cols-1">
         {data.map((values) => {
           const { id, title, price, image, para } = values;
           return (
@@ -508,9 +508,8 @@ function FilterProducts() {
                         />
                       </svg>
                     </button>
-
                   </div>
-                  <img src={image} alt="blose" className={style.images} />
+                  <img src={image} alt="blose" className={`md:w-[284px] md:h-[216px] w-full h-full ${style.images}`} />
                 </div>
                 <div className={style.colorChoose}>
                   <img src={blue} alt="blue" />

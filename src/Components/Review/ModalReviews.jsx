@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import Review from "./ReviewSection";
+import ReviewSection from "./ReviewSection";
 import style from "../../styles/Product.module.css";
+import Modal from "./Modal"
 
 function ModalReviews() {
     const [openModal, setOpenModal] = useState(false);
+    const toggleModal = () => { setOpenModal(!openModal) }
     return (
         <>
-            <div className='grid md:grid-cols-2 grid-cols-1 md:gap-14 gap-8 mb-16 px-10 md:px-16'>
-                <Review />
-                <button className={style.btnReview} onClick={() => setOpenModal(!openModal)}>Show me all 142 reviews</button>
+            <div className='px-10 md:px-16 pb-10'>
+                <ReviewSection />
+                <button className={style.btnReview} onClick={toggleModal}>Show me all 142 reviews</button>
             </div>
             {openModal && (
-                <div>
-                    <Review />
-                </div>
+                <Modal />
             )}
         </>
 
