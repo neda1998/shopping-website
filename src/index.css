@@ -109,17 +109,8 @@ ul {
   background-color: rgb(216, 197, 197);
 }
 
-body.dark, body.dark a {
-  /* background-color: var(--bg-black-100); */
-  color: var(--color-theme-dark);
-}
-
-body.dark .userBox {
+body.dark, body.dark header {
   background-color: var(--bg-black-100);
-}
-
-body.dark svg{
-  color: var(--color-theme-dark)
 }
 
 body.dark span, body.dark p {

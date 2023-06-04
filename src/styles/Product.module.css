@@ -172,7 +172,6 @@
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
     width: 100%;
     max-width: 64rem;
-    height: 100vh;
 }
 
 .bgDarkModal {
@@ -181,6 +180,7 @@
     right: 0;
     top: 0;
     bottom: 0;
+    z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,8 +188,8 @@
 }
 
 .reviewTop {
-    overflow: hidden;
-    height: 100%;
+    overflow: auto;
+    height: 500px;
 }
 
 .sortReview {

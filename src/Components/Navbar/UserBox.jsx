@@ -5,7 +5,7 @@ import Theme from '../Theme/Theme';
 
 function UserBox() {
     return (
-        <div className={style.userBox}>
+        <header className={style.userBox}>
             <div className={style.userImg}>
                 <img src={user} alt="user" className={style.user} />
                 <div className={style.propUser}>
@@ -130,7 +130,7 @@ function UserBox() {
                     <span>Log out</span>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

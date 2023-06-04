@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <AppContext.Consumer>
       {({ headerContent }) => (
-        <header className={`md:px-17 py-5 px-10 ${style.header}`}>
+        <div className={`md:px-17 py-5 px-10 ${style.header}`}>
           <div className={style.headItem}>
             <nav className={style.navbar}>
               {/* menu mobile */}
@@ -107,7 +107,7 @@ function Navbar() {
               <NavRight />
             </nav>
           </div>
-        </header>
+        </div>
       )}
     </AppContext.Consumer>
   );
