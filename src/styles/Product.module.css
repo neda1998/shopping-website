@@ -144,6 +144,7 @@
     align-items: center;
     border-bottom: 1px solid var(--border-gray-100);
     padding-bottom: 20px;
+    justify-content: space-between;
 }
 
 .headModal h1 {

@@ -13,7 +13,7 @@ function ModalReviews() {
                 <button className={style.btnReview} onClick={toggleModal}>Show me all 142 reviews</button>
             </div>
             {openModal && (
-                <Modal />
+                <Modal toggleModal={toggleModal}/>
             )}
         </>
 
