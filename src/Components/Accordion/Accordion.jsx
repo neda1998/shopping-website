@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from "../../styles/Accordion.module.css";
 
-function Accordion({Description}) {
+function Accordion({ Description }) {
     const [openAccordion, setOpenAccordion] = useState(false);
     return (
         <div>

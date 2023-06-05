@@ -208,3 +208,69 @@
     border: 1px solid var(--border-gray-300);
     border-radius: 50%;
 }
+
+.sidebar {
+    border-radius: 20px;
+    border: 1px solid var(--border-gray-100);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headSidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.numberReview {
+    display: flex;
+    align-items: center;
+}
+
+.numberReview button {
+    color: var(--bg-yellow-stars);
+    margin-right: 5px;
+}
+
+.textDecoration {
+    text-decoration: underline;
+}
+
+.changeColor {
+    margin-bottom: 16px;
+}
+
+.themeColor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.themeColor img {
+    width: 53px;
+    height: 80px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.sizeChart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sizeType {
+    margin: 10px 0 25px;
+}
+
+.sizeType button {
+    color: var(--bg-black-100);
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid var(--border-gray-100);
+    border-radius: 20px;
+    width: 70px; 
+    height: 30px;
+}
