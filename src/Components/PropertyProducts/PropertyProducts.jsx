@@ -4,6 +4,7 @@ import style from "../../styles/Product.module.css";
 import Accordions from '../Accordion/Accordions';
 import ProductDetail from '../ProductDetail/ProductDetail';
 import Reviews from '../Review/ModalReviews';
+import SliderCartAdd from "../SliderCartAdd/SliderCartAdd";
 
 function PropertyProducts() {
     return (
@@ -53,6 +54,7 @@ function PropertyProducts() {
                 </div>
             </div>
             <Reviews />
+            <SliderCartAdd />
         </div>
     )
 }

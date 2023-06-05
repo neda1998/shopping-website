@@ -70,6 +70,7 @@ ul {
   --bg-cover: #000000ad;
   --color-theme-dark:#d1d5da;
   --bg-Accordion:#F3F7FA;
+  --bg-blue-cart:#F5F8FB;
   --box-shadow: 0 10px 15px -3px rgba(165, 165, 165, 0.1),
     0 4px 6px -4px rgba(121, 121, 121, 0.1);
 }

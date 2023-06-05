@@ -215,6 +215,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
 }
 
 .headSidebar {
@@ -271,6 +272,70 @@
     font-weight: 600;
     border: 1px solid var(--border-gray-100);
     border-radius: 20px;
-    width: 70px; 
+    width: 70px;
     height: 30px;
+}
+
+.plusMinus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-blue-cart);
+    border-radius: 20px;
+    padding: 13px 5px;
+    width: 150px;
+}
+
+.upDown {
+    border-radius: 50%;
+    border: 1px solid var(--border-gray-100);
+    width: 70px;
+    height: 70px;
+}
+
+.addToCartBtn {
+    display: flex;
+    align-items: center;
+}
+
+.addToCart {
+    background-color: var(--bg-black-100);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    width: 200px;
+    padding: 15px 0;
+    margin-left: 15px;
+}
+
+.addToCart h6,
+.addToCart button {
+    color: var(--bg-white);
+}
+
+.priceProduct {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.priceProduct div span {
+    color: var(--black-color-800);
+    font-weight: 400;
+}
+
+
+
+.totalText {
+    border-top: 1px solid var(--border-gray-100);
+    padding-top: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalText div h6 {
+    font-weight: 600;
+    color: var(--bg-black-100);
 }
