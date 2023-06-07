@@ -12,6 +12,7 @@ import BlogArticle from "../Components/BlogArticle/BlogArticle";
 import SliderChooseProduct from "../Components/SliderChooseProduct/SliderChooseProduct";
 import Comments from "../Components/Comments/Comments";
 import FilterProducts from "../Components/FilterProducts/FilterProducts";
+import BtnToTop from "../Components/BtnJumpToTop/BtnToTop";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
       <Register />
       <BlogArticle />
       <Comments />
+      <BtnToTop />
     </>
   );
 }

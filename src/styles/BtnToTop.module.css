@@ -1,0 +1,22 @@
+.btnToTop {
+    position: fixed;
+    bottom: 63px;
+    right: 63px;
+    z-index: 9999;
+}
+
+.btnToTop button {
+    background-color: var(--btn-color-100);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-white);
+    opacity: .8;
+}
+
+.btnToTop button:hover {
+    opacity: 1;
+}
