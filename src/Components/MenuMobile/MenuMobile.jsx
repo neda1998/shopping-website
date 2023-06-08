@@ -7,7 +7,8 @@ import { AiOutlineClose } from 'react-icons/ai';
 import style from "../../styles/Navbar.module.css";
 import Logo from "../Logo/Logo";
 import DropdownMobile from '../Dropdown/Dropdown';
-import Theme from "../Theme/Theme"
+import Theme from "../Theme/Theme";
+import { Link } from 'react-router-dom';
 
 function MenuMobile({ handleNav }) {
     return (
@@ -49,10 +50,10 @@ function MenuMobile({ handleNav }) {
                     <input type="text" placeholder="Type and press enter" />
                 </div>
                 <div className={style.itemsMenu}>
-                    <p>MEN</p>
-                    <p>WOMEN</p>
-                    <p>BEAUTY</p>
-                    <p>SPORT</p>
+                    <Link to="/men">MEN</Link>
+                    <Link to="/women">WOMEN</Link>
+                   <Link to="/beauty">BEAUTY</Link>
+                    <Link to="/sport">SPORT</Link>
                     <DropdownMobile />
                 </div>
                 <div className={style.btnMenuMobile}>
