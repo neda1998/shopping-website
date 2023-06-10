@@ -50,10 +50,10 @@ function MenuMobile({ handleNav }) {
                     <input type="text" placeholder="Type and press enter" />
                 </div>
                 <div className={style.itemsMenu}>
-                    <p>MEN</p>
-                    <p>WOMEN</p>
-                   <p>BEAUTY</p>
-                    <p>SPORT</p>
+                    <Link to="/men">MEN</Link>
+                    <Link to="/women">WOMEN</Link>
+                   <Link to="/beauty">BEAUTY</Link>
+                    <Link to="/sport">SPORT</Link>
                     <DropdownMobile />
                 </div>
                 <div className={style.btnMenuMobile}>
