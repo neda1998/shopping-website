@@ -1,7 +1,7 @@
 import { React } from 'react';
 import style from "../../styles/Navbar.module.css";
 import user from "../../assets/images/user.png";
-import Theme from '../Theme/Theme';
+import Theme from '../../Theme/Theme';
 
 function UserBox() {
     return (

@@ -8,7 +8,8 @@ import ExploreBox from "./ExploreBox";
 import { AiOutlineClose } from 'react-icons/ai';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import MenuMobile from "../MenuMobile/MenuMobile";
-import AppContext from "../Context/AppContext";
+import AppContext from "../../Context/AppContext";
+
 
 function Navbar() {
   //toggle icon menu mobile

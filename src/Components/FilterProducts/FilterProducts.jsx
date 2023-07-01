@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "../../styles/FilterProducts.module.css";
-import DataProducts from "../Data/DataProducts";
+import DataProducts from "../../Data/DataProducts";
 import blue from "../../assets/images/blue.jpg";
 import brown from "../../assets/images/brown.jpg";
 import blueLight from "../../assets/images/blueLight.jpg";
@@ -489,9 +489,9 @@ function FilterProducts() {
           const { id, title, price, image, para } = values;
           return (
             <>
-              <div key={id}>
-                <div className={style.imgCartGreen}>
-                  <div className={style.heartIcon}>
+              <div>
+                <div className={style.imgCartGreen} >
+                  <div className={style.heartIcon} key={id}>
                     <button>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

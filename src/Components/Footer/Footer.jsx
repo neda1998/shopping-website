@@ -5,7 +5,7 @@ import facebook from "../../assets/svg/facebook.svg";
 import youtube from "../../assets/svg/youtube.svg";
 import telegram from "../../assets/svg/telegram.svg";
 import twitter from "../../assets/svg/twitter.svg";
-import AppContext from "../Context/AppContext";
+import AppContext from "../../Context/AppContext";
 
 function Footer() {
   return (

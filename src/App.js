@@ -1,7 +1,7 @@
-import RoutesWebsite from "./Components/RoutesWebsite/RoutesWebsite";
+import RoutesWebsite from "./RoutesWebsite/RoutesWebsite"
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-import AppContext from "./Components/Context/AppContext";
+import AppContext from "./Context/AppContext"
 import "./App.css";
 
 

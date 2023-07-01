@@ -1,11 +1,11 @@
-import kidsToy from "../../assets/images/toy.png";
-import imgBlose from "../../assets/images/imgBlose.png";
-import carrier from "../../assets/images/carrier.png";
-import bag from "../../assets/images/bag.png";
-import beanie from "../../assets/images/beanie.png";
-import clothes from "../../assets/images/clothes.png";
-import diamond from "../../assets/images/Diamond.png";
-import styleWoman from "../../assets/images/styleWoman.png";
+import kidsToy from "../assets/images/toy.png"
+import imgBlose from "../assets/images/imgBlose.png";
+import carrier from "../assets/images/carrier.png";
+import bag from "../assets/images/bag.png";
+import beanie from "../assets/images/beanie.png";
+import clothes from "../assets/images/clothes.png";
+import diamond from "../assets/images/Diamond.png";
+import styleWoman from "../assets/images/styleWoman.png";
 
 const DataProducts = [
   {
@@ -17,7 +17,7 @@ const DataProducts = [
     para: "Classic green",
   },
   {
-    id: 4,
+    id: 2,
     title: "Waffle Knit style",
     price: 132,
     image: styleWoman,

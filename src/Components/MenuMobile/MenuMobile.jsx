@@ -7,7 +7,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import style from "../../styles/Navbar.module.css";
 import Logo from "../Logo/Logo";
 import DropdownMobile from '../Dropdown/Dropdown';
-import Theme from "../Theme/Theme";
+import Theme from "../../Theme/Theme";
 import { Link } from 'react-router-dom';
 
 function MenuMobile({ handleNav }) {
